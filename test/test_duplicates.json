@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Test Article 1",
+    "url": "https://news.detik.com/berita/d-8171944/kpk-biasanya-daerah-kaya-tambang-justru-penduduknya-miskin",
+    "date": "Selasa, 21 Okt 2025",
+    "time": "19:59",
+    "source": "detikNews"
+  },
+  {
+    "title": "Test Article 1 (Duplicate)",
+    "url": "https://news.detik.com/berita/d-8171944/kpk-biasanya-daerah-kaya-tambang-justru-penduduknya-miskin",
+    "date": "Selasa, 21 Okt 2025",
+    "time": "19:59",
+    "source": "detikNews"
+  },
+  {
+    "title": "Test Article 2",
+    "url": "https://news.detik.com/berita/d-8171832/kpk-ungkap-sk-pencabutan-izin-4-tambang-di-raja-ampat-belum-ada",
+    "date": "Selasa, 21 Okt 2025",
+    "time": "18:30",
+    "source": "detikNews"
+  }
+]
