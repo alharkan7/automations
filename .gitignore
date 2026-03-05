@@ -49,3 +49,11 @@ Icon?
 .env.*.local
 
 *.csv
+*.xlsx
+*.xls
+
+gemini-testing/output/raw_output/
+gemini-testing/output/raw_viz_output/
+gemini-testing/output/*.png
+
+.ruff_cache/
