@@ -52,8 +52,8 @@ Icon?
 *.xlsx
 *.xls
 
-gemini-testing/output/raw_output/
-gemini-testing/output/raw_viz_output/
-gemini-testing/output/*.png
+code-execution-analysis/output/raw_output/
+code-execution-analysis/output/raw_viz_output/
+code-execution-analysis/output/*.png
 
 .ruff_cache/

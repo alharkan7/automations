@@ -7,7 +7,7 @@ This project tests the capabilities of Gemini's Code Execution feature for data 
 ## Quick Start
 
 ```bash
-cd gemini-testing
+cd code-execution-analysis
 source ../venv/bin/activate
 python scripts/run_analysis.py
 ```
@@ -15,7 +15,7 @@ python scripts/run_analysis.py
 ## Directory Structure
 
 ```
-gemini-testing/
+code-execution-analysis/
 ├── .env                          # API key configuration
 ├── data/
 │   ├── ab_testing_data.csv       # Raw A/B testing data (150 rows)
@@ -169,7 +169,7 @@ pip install google-genai python-dotenv
 
 ### 2. Configure API Key
 
-Create a `.env` file in the `gemini-testing` directory:
+Create a `.env` file in the `code-execution-analysis` directory:
 
 ```bash
 GEMINI_API_KEY=your_actual_api_key_here
@@ -178,7 +178,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 ### 3. Run Analysis
 
 ```bash
-cd gemini-testing
+cd code-execution-analysis
 source ../venv/bin/activate
 python scripts/run_analysis.py
 ```
