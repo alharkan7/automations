@@ -65,7 +65,10 @@ class AgentOrchestrator:
         entry = LogEntry(message=message, level=level)
         self.logs.append(entry)
         if self._on_log:
-            self._on_log(entry)
+            try:
+                self._on_log(entry)
+            except Exception:
+                pass
         logger.info("[%s] %s", level.upper(), message)
 
     def request_stop(self):

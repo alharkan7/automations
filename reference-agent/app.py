@@ -179,6 +179,8 @@ if run_clicked and user_input:
     st.session_state.run_complete = False
     st.session_state.running = True
     st.session_state.state = AgentState.EXTRACTING_QUERIES
+    for k in ("export_json_data", "export_json_name", "export_md_data", "export_md_name", "export_count"):
+        st.session_state.pop(k, None)
 
     user_ctx = UserContext(
         raw_input=user_input,
@@ -265,7 +267,7 @@ if st.session_state.approved_papers:
         with st.container():
             cols = st.columns([0.5, 8, 2])
             with cols[0]:
-                keep = st.checkbox("", value=True, key=f"keep_{i}", label_visibility="collapsed")
+                keep = st.checkbox(f"Keep paper {i+1}", value=True, key=f"keep_{i}", label_visibility="collapsed")
                 keep_flags.append(keep)
             with cols[1]:
                 authors_str = ", ".join(paper.authors[:3])
@@ -313,23 +315,30 @@ if st.session_state.approved_papers:
     if export_clicked and st.session_state.orchestrator:
         orch = st.session_state.orchestrator
         orch.approved_papers = pruned
+        orch._on_log = None  # detach stale streaming callback
         json_path, md_path = orch.export_results()
-        st.success(f"Exported {len(pruned)} papers!")
+        st.session_state["export_json_data"] = json_path.read_text()
+        st.session_state["export_json_name"] = json_path.name
+        st.session_state["export_md_data"] = md_path.read_text()
+        st.session_state["export_md_name"] = md_path.name
+        st.session_state["export_count"] = len(pruned)
 
+    if st.session_state.get("export_count"):
+        st.success(f"Exported {st.session_state['export_count']} papers!")
         col_j, col_m = st.columns(2)
         with col_j:
             st.download_button(
                 "⬇ Download JSON",
-                data=json_path.read_text(),
-                file_name=json_path.name,
+                data=st.session_state["export_json_data"],
+                file_name=st.session_state["export_json_name"],
                 mime="application/json",
                 use_container_width=True,
             )
         with col_m:
             st.download_button(
                 "⬇ Download Markdown",
-                data=md_path.read_text(),
-                file_name=md_path.name,
+                data=st.session_state["export_md_data"],
+                file_name=st.session_state["export_md_name"],
                 mime="text/markdown",
                 use_container_width=True,
             )
