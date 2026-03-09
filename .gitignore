@@ -57,3 +57,13 @@ code-execution-analysis/output/raw_viz_output/
 code-execution-analysis/output/*.png
 
 .ruff_cache/
+
+# Prisma data & reports
+prisma/*.json
+prisma/*.backup
+prisma/*_report.txt
+
+# Reference Agent output
+reference-agent/results/*.json
+reference-agent/results/*.md
+reference-agent/results/*.html

@@ -1,0 +1,12 @@
+# Requirements for update_bookmarks.py
+# This script uses Python standard library modules:
+# - os
+# - subprocess 
+# - datetime
+#
+# External dependencies required by the called scripts:
+psycopg2-binary>=2.8.0
+python-dotenv>=0.19.0
+requests>=2.25.0
+#
+# Python 3.6+ is recommended for full compatibility.
