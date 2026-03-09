@@ -6,8 +6,6 @@ searches OpenAlex and uses Gemini to evaluate academic relevance.
 from __future__ import annotations
 
 import os
-import threading
-import time
 
 import streamlit as st
 
@@ -20,9 +18,7 @@ from src.models import (
     SearchQuery,
     UserContext,
 )
-from src.openalex_client import OpenAlexClient
 from src.orchestrator import AgentOrchestrator
-from src.query_manager import QueryManager
 
 # ---------------------------------------------------------------------------
 # Page config
@@ -41,35 +37,6 @@ st.markdown("""
 <style>
     .stApp { max-width: 1200px; margin: 0 auto; }
     div[data-testid="stStatusWidget"] { display: none; }
-    .log-box {
-        background: #0e1117;
-        border: 1px solid #333;
-        border-radius: 8px;
-        padding: 16px;
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 13px;
-        max-height: 400px;
-        overflow-y: auto;
-        color: #c9d1d9;
-    }
-    .log-info { color: #8b949e; }
-    .log-success { color: #3fb950; }
-    .log-warning { color: #d29922; }
-    .log-error { color: #f85149; }
-    .paper-card {
-        border: 1px solid #30363d;
-        border-radius: 8px;
-        padding: 16px;
-        margin-bottom: 12px;
-        background: #161b22;
-    }
-    .stat-card {
-        text-align: center;
-        padding: 16px;
-        border-radius: 8px;
-        background: #161b22;
-        border: 1px solid #30363d;
-    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -83,12 +50,9 @@ def _init_session():
         "logs": [],
         "approved_papers": [],
         "state": AgentState.IDLE,
-        "pending_queries": [],
         "run_complete": False,
         "running": False,
         "gemini_key_set": False,
-        "last_evaluation": None,
-        "pending_batch": [],
     }
     for key, val in defaults.items():
         if key not in st.session_state:
@@ -96,10 +60,6 @@ def _init_session():
 
 
 _init_session()
-
-
-def add_log(entry: LogEntry):
-    st.session_state.logs.append(entry)
 
 
 # ---------------------------------------------------------------------------
@@ -194,10 +154,20 @@ with col_stop:
 
 if stop_clicked and st.session_state.orchestrator:
     st.session_state.orchestrator.request_stop()
-    add_log(LogEntry(message="Stop requested by user.", level="warning"))
 
 # ---------------------------------------------------------------------------
-# Autonomous run logic
+# Log level formatting helpers
+# ---------------------------------------------------------------------------
+_LOG_ICONS = {"info": "ℹ️", "success": "✅", "warning": "⚠️", "error": "❌"}
+
+
+def _format_log(entry: LogEntry) -> str:
+    icon = _LOG_ICONS.get(entry.level, "")
+    return f"{icon} {entry.message}"
+
+
+# ---------------------------------------------------------------------------
+# Autonomous run logic — with real-time streaming via st.status
 # ---------------------------------------------------------------------------
 if run_clicked and user_input:
     if not api_key and not os.environ.get("GEMINI_API_KEY"):
@@ -223,19 +193,30 @@ if run_clicked and user_input:
         st.session_state.running = False
         st.stop()
 
+    status_container = st.status("🔍 Agent is searching for literature...", expanded=True)
+    stats_placeholder = status_container.empty()
+
+    def _streaming_log(entry: LogEntry):
+        st.session_state.logs.append(entry)
+        status_container.write(_format_log(entry))
+
     orch = AgentOrchestrator(
         user_context=user_ctx,
         evaluator=evaluator,
-        on_log=add_log,
+        on_log=_streaming_log,
     )
     orch.openalex.per_page = per_page
     orch.openalex.max_requests = max_oa_requests
     orch.evaluator.max_requests = max_gemini_requests
-
     st.session_state.orchestrator = orch
 
-    with st.spinner("Agent is running..."):
-        results = orch.run_autonomous()
+    results = orch.run_autonomous()
+
+    final_label = (
+        f"✅ Search complete — {len(results)} papers approved "
+        f"({orch.stats.total_fetched} fetched, {orch.stats.total_evaluated} evaluated)"
+    )
+    status_container.update(label=final_label, state="complete", expanded=False)
 
     st.session_state.approved_papers = results
     st.session_state.state = orch.state
@@ -245,9 +226,9 @@ if run_clicked and user_input:
 
 
 # ---------------------------------------------------------------------------
-# Stats bar
+# Stats bar (shown after run)
 # ---------------------------------------------------------------------------
-if st.session_state.orchestrator:
+if st.session_state.orchestrator and st.session_state.run_complete:
     orch = st.session_state.orchestrator
     st.markdown("---")
     st.markdown("### Dashboard")
@@ -260,22 +241,13 @@ if st.session_state.orchestrator:
 
 
 # ---------------------------------------------------------------------------
-# Real-time Visibility Console
+# Agent Log (persisted after run)
 # ---------------------------------------------------------------------------
-if st.session_state.logs:
+if st.session_state.logs and st.session_state.run_complete:
     st.markdown("---")
-    st.markdown("### Agent Log")
-
-    log_html_parts = []
-    for entry in st.session_state.logs:
-        css_class = f"log-{entry.level}"
-        icon = {"info": "ℹ️", "success": "✅", "warning": "⚠️", "error": "❌"}.get(entry.level, "")
-        log_html_parts.append(f'<div class="{css_class}">{icon} {entry.message}</div>')
-
-    st.markdown(
-        f'<div class="log-box">{"".join(log_html_parts)}</div>',
-        unsafe_allow_html=True,
-    )
+    with st.expander("### Agent Log", expanded=False):
+        for entry in st.session_state.logs:
+            st.text(_format_log(entry))
 
 
 # ---------------------------------------------------------------------------

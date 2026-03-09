@@ -14,17 +14,31 @@ logger = logging.getLogger(__name__)
 MAX_GEMINI_REQUESTS = 50
 
 EVALUATION_SYSTEM_PROMPT = """\
-You are a strict academic relevance evaluator. You will be given a user's research \
-context and a batch of academic papers. For EACH paper, decide whether it is \
-highly relevant to the user's research context.
+You are a VERY STRICT academic relevance evaluator performing a literature review. \
+You will receive a user's specific research context and a batch of candidate papers. \
+For EACH paper you must decide if it is DIRECTLY and SUBSTANTIVELY relevant.
 
-Rules:
-- Only mark a paper as relevant (is_relevant: true) if it directly addresses \
-the user's research topic, methods, or domain.
-- Tangentially related papers should be marked as NOT relevant.
-- Provide a brief rationale (1-2 sentences) for each decision.
-- Return your response as a JSON array where each element has: \
-"openalex_id", "title", "is_relevant" (boolean), "rationale" (string).
+CRITICAL RULES — read carefully:
+1. First, mentally identify the user's CORE research topic, theoretical frameworks, \
+and specific domain. Do NOT rely on surface-level keyword overlap.
+2. A paper is relevant ONLY if it directly contributes to the user's specific \
+research question, theoretical framework, methodology, or empirical domain. \
+It must be something a researcher would actually cite in a literature review \
+on this exact topic.
+3. REJECT papers that merely share a keyword but study a completely different subject. \
+For example, if the research is about "viral social media content influencing policy," \
+reject papers about biological viruses, epidemics, or disease surveillance — \
+even if they mention "Indonesia" or "policy."
+4. REJECT papers from unrelated disciplines (e.g., medical/health papers for a \
+political science/communication topic) unless they are genuinely cross-disciplinary \
+and directly address the user's research.
+5. REJECT papers that are only tangentially related (e.g., generic "social media" \
+studies that do not address the user's specific governance/policy/activism angle).
+6. When in doubt, REJECT. A false negative (missing a borderline paper) is far \
+better than a false positive (including an irrelevant paper).
+
+Return a JSON array where each element has: \
+"openalex_id", "title", "is_relevant" (boolean), "rationale" (string, 1-2 sentences).
 """
 
 
@@ -94,9 +108,13 @@ class GeminiEvaluator:
 
         prompt = (
             f"## User Research Context\n{user_context}\n\n"
+            "## TASK\n"
+            "First, in one sentence, state the user's CORE research topic. "
+            "Then evaluate each paper below against that core topic.\n\n"
             f"## Papers to Evaluate ({len(papers)} total)\n{papers_block}\n\n"
-            "Evaluate each paper. Return a JSON array of objects with keys: "
-            '"openalex_id", "title", "is_relevant", "rationale".'
+            "Return a JSON array of objects with keys: "
+            '"openalex_id", "title", "is_relevant", "rationale". '
+            "Remember: when in doubt, mark is_relevant as false."
         )
 
         try:
@@ -143,13 +161,25 @@ class GeminiEvaluator:
             return []
 
         prompt = (
-            "You are helping a researcher find relevant academic papers. "
-            "Given the following research context, generate 3-5 concise search queries "
-            "that would be effective for searching the OpenAlex academic database.\n\n"
-            "Each query should be a short phrase (2-6 words) capturing a key aspect "
-            "of the research.\n\n"
+            "You are an expert research librarian helping a scholar find academic papers "
+            "in the OpenAlex database. OpenAlex uses full-text search — it matches query "
+            "words against titles, abstracts, and concepts.\n\n"
+            "Given the research context below, generate 4-6 search queries that will "
+            "retrieve papers DIRECTLY relevant to this specific research.\n\n"
+            "CRITICAL RULES:\n"
+            "- Each query should be a precise academic phrase (3-8 words).\n"
+            "- Use SPECIFIC academic terminology, not colloquial terms.\n"
+            "- AVOID ambiguous words that have different meanings across disciplines. "
+            "For example, if the research is about content 'going viral' on social media, "
+            "do NOT use the word 'viral' alone — OpenAlex will return biomedical papers "
+            "about biological viruses. Instead use phrases like 'social media mobilization' "
+            "or 'digital activism policy change.'\n"
+            "- Cover DIFFERENT facets of the research: the core phenomenon, the theoretical "
+            "frameworks mentioned, the methodology, the geographic/empirical context.\n"
+            "- Include queries for the specific theoretical frameworks or key authors "
+            "mentioned in the research context.\n\n"
             f"## Research Context\n{research_context}\n\n"
-            'Return a JSON array of strings, e.g. ["query one", "query two", ...]'
+            'Return ONLY a JSON array of strings: ["query one", "query two", ...]'
         )
 
         try:
@@ -170,14 +200,19 @@ class GeminiEvaluator:
             return []
 
         prompt = (
-            "You are helping a researcher find more academic papers. "
-            "The following search queries have already been used and are exhausted:\n"
+            "You are an expert research librarian. The following search queries have "
+            "already been used to search OpenAlex and are now exhausted:\n"
             f"{json.dumps(previous_queries)}\n\n"
-            "Given the original research context below, generate 2-4 NEW and DIFFERENT "
-            "search queries. Use synonyms, related concepts, broader/narrower terms, "
-            "or alternative phrasing that the previous queries did not cover.\n\n"
+            "Given the original research context below, generate 3-5 NEW and DIFFERENT "
+            "search queries that approach the topic from angles NOT covered above.\n\n"
+            "RULES:\n"
+            "- Use synonyms, related theories, adjacent concepts, or narrower sub-topics.\n"
+            "- AVOID ambiguous terms that could match unrelated disciplines.\n"
+            "- Each query should be a precise academic phrase (3-8 words).\n"
+            "- Think about what a researcher would actually search for to find papers "
+            "they would cite in their literature review on this topic.\n\n"
             f"## Research Context\n{user_context}\n\n"
-            'Return a JSON array of strings, e.g. ["new query one", "new query two", ...]'
+            'Return ONLY a JSON array of strings: ["new query one", "new query two", ...]'
         )
 
         try:
