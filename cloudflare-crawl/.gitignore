@@ -1,0 +1,8 @@
+# Credentials
+.env
+
+# Crawl results
+crawl_*.json
+
+# OS files
+.DS_Store
