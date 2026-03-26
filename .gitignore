@@ -67,3 +67,6 @@ prisma/*_report.txt
 reference-agent/results/*.json
 reference-agent/results/*.md
 reference-agent/results/*.html
+
+!al-library/library_inventory.json
+!al-library/google_books_scan.csv

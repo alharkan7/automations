@@ -1,0 +1,4 @@
+python-dotenv>=1.0.0
+
+# Optional: richer PDF document titles for search queries
+pypdf>=4.0.0
