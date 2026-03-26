@@ -7,6 +7,11 @@ Progress is logged to stderr for each file. With -o, each result is flushed to
 disk immediately (atomic replace). Re-runs reuse -o: paths with status
 matched and a google_books_id are skipped; not_found and error are retried.
 
+If `google_books_flagged.json` contains a matching `file_path` and a non-empty
+`manual_google_books_url`, the script will use that manual URL (by extracting
+the Google Books volume id) to fetch the correct metadata, overriding any
+previous API search choice.
+
 status values:
   matched    — API returned at least one volume and a volume id was recorded
   not_found  — API succeeded but no results (or empty items)
@@ -38,6 +43,7 @@ DEFAULT_GLOB = "Lib*"
 DEFAULT_EXTENSIONS = frozenset({".pdf", ".epub"})
 BOOKS_URL = "https://books.google.com/books"
 VOLUMES_API = "https://www.googleapis.com/books/v1/volumes"
+DEFAULT_FLAGGED_JSON = SCRIPT_DIR / "google_books_flagged.json"
 
 
 def clean_query_from_stem(stem: str) -> str:
@@ -196,6 +202,108 @@ def volumes_search(
     return {"_error": last_err or "unknown"}
 
 
+def parse_google_books_id_from_url(url: str) -> str | None:
+    """
+    Extract the Google Books volume id from a variety of common URL shapes, e.g.
+    - https://books.google.com/books?id=XXXX
+    - https://books.google.co.id/books/?id=XXXX&redir_esc=y
+    """
+    if not url:
+        return None
+
+    # Common: ?id=...
+    m = re.search(r"[?&]id=([^&#]+)", url)
+    if m:
+        try:
+            return urllib.parse.unquote(m.group(1))
+        except Exception:
+            return m.group(1)
+
+    # Sometimes: /books/<id>
+    m = re.search(r"/books/([^/?#&]+)", url)
+    if m:
+        try:
+            return urllib.parse.unquote(m.group(1))
+        except Exception:
+            return m.group(1)
+
+    return None
+
+
+def volume_by_id(
+    vid: str,
+    api_key: str | None,
+    *,
+    retries: int = 4,
+) -> dict[str, Any]:
+    """
+    Fetch volume metadata directly by id instead of using a search query.
+    """
+    params: list[tuple[str, str]] = []
+    if api_key:
+        params.append(("key", api_key))
+
+    url = f"{VOLUMES_API}/{urllib.parse.quote(vid)}"
+    if params:
+        url += f"?{urllib.parse.urlencode(params)}"
+
+    last_err: str | None = None
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers={"Accept": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode(errors="replace")
+            if e.code == 429 and attempt < retries:
+                wait = min(2.0 * (2**attempt), 60.0)
+                time.sleep(wait)
+                last_err = f"HTTP {e.code} (retrying)"
+                continue
+            return {"_error": f"HTTP {e.code}", "_body": body[:500]}
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            last_err = str(e)
+            if attempt < retries:
+                time.sleep(min(1.0 * (2**attempt), 30.0))
+                continue
+            return {"_error": last_err}
+
+    return {"_error": last_err or "unknown"}
+
+
+def load_manual_flagged_overrides(flagged_path: Path) -> dict[str, dict[str, str]]:
+    """
+    Returns a mapping keyed by resolved absolute `file_path`.
+
+    Expected (from `google_books_flagged.json`):
+      { "entries": [ { "file_path": "...", "manual_google_books_url": "..." }, ... ] }
+    """
+    if not flagged_path.is_file():
+        return {}
+    try:
+        payload = json.loads(flagged_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    entries = payload.get("entries") or []
+    out: dict[str, dict[str, str]] = {}
+    for e in entries:
+        fp = (e.get("file_path") or "").strip()
+        manual_url = (e.get("manual_google_books_url") or "").strip()
+        if not fp or not manual_url:
+            continue
+        try:
+            resolved_fp = str(Path(fp).expanduser().resolve())
+        except OSError:
+            resolved_fp = fp
+
+        out[resolved_fp] = {
+            "manual_google_books_url": manual_url,
+            "manual_google_books_id": parse_google_books_id_from_url(manual_url) or "",
+        }
+    return out
+
+
 def pick_first_volume(data: dict[str, Any]) -> tuple[str | None, dict[str, Any] | None, str | None]:
     if "_error" in data:
         return None, None, data.get("_error") or data.get("_body")
@@ -236,6 +344,58 @@ def row_for_file(
         "google_books_url": url,
         "metadata": info,
         "lookup_error": err,
+    }
+
+
+def row_for_manual_override(
+    path: Path,
+    manual_url: str,
+    manual_id: str | None,
+    api_key: str | None,
+    delay_s: float,
+) -> dict[str, Any]:
+    """
+    Fetch metadata using a manually verified Google Books URL.
+    """
+    time.sleep(delay_s)
+
+    vid = (manual_id or "").strip() or parse_google_books_id_from_url(manual_url)
+    if not vid:
+        return {
+            "file_path": str(path),
+            "file_name": path.name,
+            "status": "error",
+            "search_query": f"MANUAL:{manual_url}",
+            "google_books_id": "",
+            "google_books_url": manual_url,
+            "metadata": {},
+            "lookup_error": "Could not extract google_books_id from manual_google_books_url",
+        }
+
+    data = volume_by_id(vid, api_key)
+    if "_error" in data:
+        return {
+            "file_path": str(path),
+            "file_name": path.name,
+            "status": "error",
+            "search_query": f"MANUAL:{vid}",
+            "google_books_id": "",
+            "google_books_url": manual_url,
+            "metadata": {},
+            "lookup_error": data.get("_error") or data.get("_body") or "unknown error",
+        }
+
+    info = data.get("volumeInfo") or {}
+    return {
+        "file_path": str(path),
+        "file_name": path.name,
+        "status": "matched",
+        "search_query": f"MANUAL:{vid}",
+        "google_books_id": vid,
+        # Keep the exact manual URL you pasted (may be on books.google.* with redirect params).
+        "google_books_url": manual_url,
+        "metadata": info,
+        "lookup_error": None,
     }
 
 
@@ -421,6 +581,8 @@ def main() -> int:
     )
     args = p.parse_args()
 
+    manual_overrides = load_manual_flagged_overrides(DEFAULT_FLAGGED_JSON)
+
     ext_set = frozenset(
         "." + x.strip().lower().lstrip(".") for x in args.extensions.split(",") if x.strip()
     )
@@ -442,10 +604,14 @@ def main() -> int:
 
     for i, f in enumerate(files, start=1):
         key = str(f)
+        manual_entry = manual_overrides.get(key) or {}
+        manual_url = (manual_entry.get("manual_google_books_url") or "").strip()
+        manual_id = (manual_entry.get("manual_google_books_id") or "").strip() or None
         if (
             not args.no_resume
             and key in cache
             and cache_entry_is_complete(cache[key])
+            and not manual_url
         ):
             row = copy.deepcopy(cache[key])
             rows.append(row)
@@ -456,12 +622,19 @@ def main() -> int:
             )
         else:
             print(
-                f"[{i}/{n}] query … | {f.name}",
+                f"[{i}/{n}] query … | {f.name}"
+                if not manual_url
+                else f"[{i}/{n}] manual override → fetch by id | {f.name}",
                 file=sys.stderr,
                 flush=True,
             )
-            row = row_for_file(f, args.api_key, args.delay)
-            row["review_flag"] = (cache.get(key) or {}).get("review_flag") or ""
+            if manual_url:
+                row = row_for_manual_override(f, manual_url, manual_id, args.api_key, args.delay)
+                # Manual correction means we don't want the old incorrect flag to remain.
+                row["review_flag"] = ""
+            else:
+                row = row_for_file(f, args.api_key, args.delay)
+                row["review_flag"] = (cache.get(key) or {}).get("review_flag") or ""
             rows.append(row)
             cache[key] = copy.deepcopy(row)
             vol_title = (row.get("metadata") or {}).get("title") or "—"

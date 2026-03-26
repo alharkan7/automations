@@ -67,7 +67,7 @@ Useful flags:
 
 - `--downloads-dir` — parent of the library glob (default: `~/Downloads`)
 - `--lib-glob` — glob for library roots (default: `Lib*`)
-- `--extensions` — comma-separated (default: `pdf,epub,mobi,azw3`)
+- `--extensions` — comma-separated suffixes, or `all` / `*` for every file (default: `all`)
 - `--format csv` — files-only CSV instead of JSON
 
 ---

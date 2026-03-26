@@ -588,9 +588,12 @@ def build_html_payload(books: list[dict[str, Any]], *, standalone_fetch_reveal: 
       shelf.innerHTML = vis.map(b => {{
         const gb = b.google_books_url || (b.google_books_id
           ? 'https://books.google.com/books?id=' + encodeURIComponent(b.google_books_id) : null);
+        const placeholder = `<div class="cover-placeholder">${{esc(b.display_title)}}</div>`;
         const cover = b.cover_url
           ? `<a class="cover-link" href="${{gb || '#'}}" target="_blank" rel="noopener" ${{!gb ? 'onclick="return false"' : ''}}><img class="cover-img" src="${{b.cover_url}}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.opacity=.35;this.alt=''"></a>`
-          : `<div class="cover-placeholder">${{esc(b.display_title)}}</div>`;
+          : (gb
+              ? `<a class="cover-link" href="${{gb}}" target="_blank" rel="noopener">${{placeholder}}</a>`
+              : placeholder);
         const sub = b.display_subtitle ? `<div class="st">${{esc(b.display_subtitle)}}</div>` : '';
         const au = b.display_author ? `<div class="au">${{esc(b.display_author)}}</div>` : '';
         const cls = b.status === 'matched' ? 'matched' : (b.status === 'not_found' ? 'not_found' : 'error');

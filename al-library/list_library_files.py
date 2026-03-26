@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-List ebook files under Downloads/Lib* (configurable): path, name, extension,
+List files under Downloads/Lib* (configurable): path, name, extension,
 relative path, top-level folder — plus summary counts by extension and folder.
+
+By default every regular file is included; pass --extensions to limit by suffix.
 
 Outputs JSON (summary + files) or CSV (files only).
 """
@@ -19,14 +21,24 @@ DEFAULT_DOWNLOADS = Path.home() / "Downloads"
 DEFAULT_GLOB = "Lib*"
 
 
-def discover_files(roots: list[Path], extensions: frozenset[str]) -> list[Path]:
+def discover_files(roots: list[Path], extensions: frozenset[str] | None) -> list[Path]:
+    """If extensions is None, include all regular files (any suffix, including none)."""
+
+    def accept(path: Path) -> bool:
+        if not path.is_file():
+            return False
+        if extensions is None:
+            return True
+        return path.suffix.lower() in extensions
+
     out: list[Path] = []
     for root in roots:
-        if root.is_file() and root.suffix.lower() in extensions:
-            out.append(root.resolve())
+        if root.is_file():
+            if accept(root):
+                out.append(root.resolve())
         elif root.is_dir():
             for p in root.rglob("*"):
-                if p.is_file() and p.suffix.lower() in extensions:
+                if accept(p):
                     out.append(p.resolve())
     return sorted(set(out))
 
@@ -59,16 +71,24 @@ def main() -> int:
     p.add_argument("--lib-glob", default=DEFAULT_GLOB, help="Glob under downloads (default: Lib*)")
     p.add_argument(
         "--extensions",
-        default="pdf,epub,mobi,azw3",
-        help="Comma-separated extensions (default: pdf,epub,mobi,azw3)",
+        default="all",
+        metavar="EXTS",
+        help='Comma-separated suffixes (e.g. pdf,epub) or "all"/"*" for every file (default: all)',
     )
     p.add_argument("--format", choices=("json", "csv"), default="json")
     p.add_argument("-o", "--output", type=Path, default=None, help="Write to file (default: stdout)")
     args = p.parse_args()
 
-    ext_set = frozenset(
-        "." + x.strip().lower().lstrip(".") for x in args.extensions.split(",") if x.strip()
-    )
+    raw_ext = args.extensions.strip().lower()
+    if raw_ext in ("*", "all"):
+        ext_set: frozenset[str] | None = None
+    else:
+        ext_set = frozenset(
+            "." + x.strip().lower().lstrip(".") for x in args.extensions.split(",") if x.strip()
+        )
+        if not ext_set:
+            print("Use --extensions all, or a non-empty comma-separated list.", file=sys.stderr)
+            return 1
     roots = sorted(args.downloads_dir.glob(args.lib_glob))
     if not roots:
         print(f"No paths matched {args.downloads_dir}/{args.lib_glob}", file=sys.stderr)
@@ -97,6 +117,9 @@ def main() -> int:
     summary = {
         "downloads_dir": str(args.downloads_dir.resolve()),
         "lib_glob": args.lib_glob,
+        "extensions_filter": "all"
+        if ext_set is None
+        else sorted(ext_set, key=lambda s: (s == "", s.lower())),
         "roots_matched": [str(r.resolve()) for r in roots],
         "total_files": len(files),
         "by_extension": dict(sorted(by_ext.items())),

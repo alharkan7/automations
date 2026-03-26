@@ -1,0 +1,139 @@
+{
+  "source_csv": "/Users/alharkan/Documents/Repositories/Archive/automations/al-library/google_books_scan.csv",
+  "flag": "incorrect",
+  "count": 13,
+  "entries": [
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Chicken Soup For The Soul.pdf",
+      "file_name": "Chicken Soup For The Soul.pdf",
+      "status": "matched",
+      "search_query": "Chicken Soup For The Soul",
+      "google_books_id": "PM5B5wbBGGkC",
+      "google_books_url": "https://books.google.com/books?id=PM5B5wbBGGkC",
+      "metadata_json": "{\"title\": \"Chicken Soup for the Soul: From Lemons to Lemonade\", \"subtitle\": \"101 Positive, Practical, and Powerful Stories about Making the Best of a Bad Situation\", \"authors\": [\"Jack Canfield\", \"Mark Victor Hansen\", \"Amy Newmark\"], \"publisher\": \"Simon and Schuster\", \"publishedDate\": \"2013-08-13\", \"description\": \"Chicken Soup for the Soul: From Lemons to Lemonade will inspire, encourage, and motivate you to turn any sour situation into a better one with its 101 personal stories from others who turned a negative into something positive. When life hands you lemons… make lemonade! This collection is full of inspiring true stories from others who did just that, and will help you make the best of any bad situation. You will find inspiration, encouragement, and guidance on turning what seemed like a negative into something positive in these 101 sweet stories of success!\", \"industryIdentifiers\": [{\"type\": \"ISBN_13\", \"identifier\": \"9781611592252\"}, {\"type\": \"ISBN_10\", \"identifier\": \"1611592259\"}], \"readingModes\": {\"text\": true, \"image\": false}, \"pageCount\": 417, \"printType\": \"BOOK\", \"categories\": [\"Self-Help\"], \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": true, \"contentVersion\": \"1.7.6.0.preview.2\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=PM5B5wbBGGkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=PM5B5wbBGGkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=PM5B5wbBGGkC&printsec=frontcover&dq=Chicken+Soup+For+The+Soul&hl=&cd=1&source=gbs_api\", \"infoLink\": \"https://play.google.com/store/books/details?id=PM5B5wbBGGkC&source=gbs_api\", \"canonicalVolumeLink\": \"https://play.google.com/store/books/details?id=PM5B5wbBGGkC\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=XI0F7jSjg44C&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Dan Brown - Inferno.pdf",
+      "file_name": "Dan Brown - Inferno.pdf",
+      "status": "matched",
+      "search_query": "Dan Brown - Inferno",
+      "google_books_id": "gTZzwgEACAAJ",
+      "google_books_url": "https://books.google.com/books?id=gTZzwgEACAAJ",
+      "metadata_json": "{\"title\": \"INFERNO [SOUND RECORDING].\", \"authors\": [\"Dan Brown (Teacher)\"], \"publishedDate\": \"2013\", \"industryIdentifiers\": [{\"type\": \"ISBN_10\", \"identifier\": \"0804147973\"}, {\"type\": \"ISBN_13\", \"identifier\": \"9780804147972\"}], \"readingModes\": {\"text\": false, \"image\": false}, \"printType\": \"BOOK\", \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"preview-1.0.0\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=gTZzwgEACAAJ&dq=Dan+Brown+-+Inferno&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=gTZzwgEACAAJ&dq=Dan+Brown+-+Inferno&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/INFERNO_SOUND_RECORDING.html?hl=&id=gTZzwgEACAAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books/?id=y_uIAwAAQBAJ&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Muhammad Husain Haekal - Umar bin Khattab.pdf",
+      "file_name": "Muhammad Husain Haekal - Umar bin Khattab.pdf",
+      "status": "matched",
+      "search_query": "Muhammad Husain Haekal - Umar bin Khattab",
+      "google_books_id": "LHq7DAAAQBAJ",
+      "google_books_url": "https://books.google.com/books?id=LHq7DAAAQBAJ",
+      "metadata_json": "{\"title\": \"Chiefdom Madinah\", \"subtitle\": \"Kerucut Kekuasaan pada Zaman Awal Islam\", \"authors\": [\"Dr. Abdul Aziz, MA\"], \"publisher\": \"Pustaka Alvabet\", \"publishedDate\": \"2016-05-02\", \"description\": \"Para pemikir dan aktivis Islam politik meyakini bahwa pengorganisasian masyarakat Muslim Arab di Madinah pada masa Rasulullah saw dan Khulafair Rasyidun merupakan wujud Negara Islam. Keyakinan ini sejatinya lebih didasarkan pada pemahaman normatif-ideologis—ketimbang historis-sosiologis—atas sejarah Islam awal. Tak pelak, pemahaman ini menempatkan Negara Islam pada posisi sakral, bahkan dianggap tipe ideal bentuk negara yang wajib dibangun kembali oleh umat Islam dewasa ini. Buku ini menawarkan pandangan baru yang sangat kritis untuk menguji kesahihan keyakinan tersebut. Dengan pendekatan dan metode interpretasi historis-sosiologis, penulisnya memaparkan secara proporsional kontribusi Islam dan tradisi Arab (jahiliah) bagi pembentukan negara (state formation) pada masa-masa awal. Pandangan baru ini membuka ruang pemahaman yang lebih mendekati realitas sebenarnya atas kehidupan masyarakat Muslim Arab masa itu. Alhasil, penulis menyimpulkan bahwa pengorganisasian kekuasaan pada masa Rasulullah dan Khulafaur Rasyidin bukanlah wujud (final) Negara Islam, melainkan baru sebatas “Chiefdom Madinah”, yakni sebentuk pranata kekuasaan terpusat pra-negara (pre-state) yang jadi sumbu tata kelola masyarakat di Madinah dan wilayah taklukannya. Pengorganisasian kekuasaan pada masa itu menyerap banyak elemen sosial-budaya setempat, bersifat sementara, ad hoc, dan belum menampakkan bentuknya yang matang, di mana Islam dan tradisi Arab jahiliah sama-sama memberi andil bagi Chiefdom Madinah.\", \"industryIdentifiers\": [{\"type\": \"ISBN_13\", \"identifier\": \"9786029193855\"}, {\"type\": \"ISBN_10\", \"identifier\": \"6029193856\"}], \"readingModes\": {\"text\": false, \"image\": true}, \"pageCount\": 422, \"printType\": \"BOOK\", \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"0.2.1.0.preview.1\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=LHq7DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=LHq7DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"id\", \"previewLink\": \"http://books.google.co.id/books?id=LHq7DAAAQBAJ&pg=PA269&dq=Muhammad+Husain+Haekal+-+Umar+bin+Khattab&hl=&cd=1&source=gbs_api\", \"infoLink\": \"https://play.google.com/store/books/details?id=LHq7DAAAQBAJ&source=gbs_api\", \"canonicalVolumeLink\": \"https://play.google.com/store/books/details?id=LHq7DAAAQBAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=RBdqNwAACAAJ&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Stephen R. Covey - The 7 Habits of Highly Effective People.epub",
+      "file_name": "Stephen R. Covey - The 7 Habits of Highly Effective People.epub",
+      "status": "matched",
+      "search_query": "Seven Habits of Highly Effective People, Stephen R. Covey Unknown",
+      "google_books_id": "v7w5oArwKgoC",
+      "google_books_url": "https://books.google.com/books?id=v7w5oArwKgoC",
+      "metadata_json": "{\"title\": \"The 7 Habits of Highly Effective People Personal Workbook\", \"authors\": [\"Stephen R. Covey\"], \"publisher\": \"Simon and Schuster\", \"publishedDate\": \"2008-09-04\", \"description\": \"Stephen Covey's THE 7 HABITS OF HIGHLY EFFECTIVE PEOPLE took the self-help market by storm in 1990 and has enjoyed phenomenal sales ever since. With over 15 million copies in print, the book has become a classic. Now a touchstone for millions of individuals, as well as for families and businesses, the integrated, principle-centered 7 Habits philosophy has helped readers find solutions to their personal and professional problems, and achieve a life characterized by fairness, integrity, honesty, and dignity. Covey's tried and true step-by-step approach can now be even more thoroughly explored in this new workbook. With the same clarity and assurance that Covey's readers have come to know and love, the workbook helps readers further understand, appreciate, and internalize the power of the 7 Habits. These engaging, in-depth exercises allow readers - both devotees and newcomers - to get their hands dirty as they develop a philosophy for success, set personal goals, and improve their relationships.\", \"industryIdentifiers\": [{\"type\": \"ISBN_13\", \"identifier\": \"9781847375179\"}, {\"type\": \"ISBN_10\", \"identifier\": \"1847375170\"}], \"readingModes\": {\"text\": true, \"image\": false}, \"pageCount\": 449, \"printType\": \"BOOK\", \"categories\": [\"Self-Help\"], \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": true, \"contentVersion\": \"0.5.4.0.preview.2\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=v7w5oArwKgoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=v7w5oArwKgoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=v7w5oArwKgoC&printsec=frontcover&dq=Seven+Habits+of+Highly+Effective+People,+Stephen+R.+Covey+Unknown&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=v7w5oArwKgoC&dq=Seven+Habits+of+Highly+Effective+People,+Stephen+R.+Covey+Unknown&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/The_7_Habits_of_Highly_Effective_People.html?hl=&id=v7w5oArwKgoC\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=upUxaNWSaRIC&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Steven Pressfield - Do the Work (2011).pdf",
+      "file_name": "Steven Pressfield - Do the Work (2011).pdf",
+      "status": "matched",
+      "search_query": "Steven Pressfield - Do the Work",
+      "google_books_id": "IsfpDwAAQBAJ",
+      "google_books_url": "https://books.google.com/books?id=IsfpDwAAQBAJ",
+      "metadata_json": "{\"title\": \"Summary of Do the Work by Steven Pressfield\", \"authors\": [\"QuickRead\", \"Lea Schullery\"], \"publisher\": \"QuickRead.com\", \"description\": \"Overcome Resistance and Get Out of Your Own Way. Do you find yourself unable to finish a project? Perhaps your dream is to write a book, start a new business, or begin a new philanthropic endeavor. As you begin your new project, fear begins to seep in and you begin to self-sabotage. You procrastinate and begin to engage in self-doubt, these demons prohibit you from achieving your goals and pursuing your dreams. Unfortunately, many of us find ourselves in this position quite often. But where does this inner resistance come from and why is it consistently stopping us from accomplishing more? Throughout Do the Work, Steven Pressfield aims to teach you everything you need to know to identify these causes of resistance and how to stop it from taking over. You’ll learn the various techniques you need to overcome the resistance, get back to work and finally turn your dreams into a reality. As you read, you’ll learn how arrogance and ignorance are your allies, you'll discover how to slay a dragon, and finally, you'll understand why failure leads to success. Do you want more free book summaries like this? Download our app for free at https://www.QuickRead.com/App and get access to hundreds of free book and audiobook summaries. DISCLAIMER: This book summary is meant as a preview and not a replacement for the original work. If you like this summary please consider purchasing the original book to get the full experience as the original author intended it to be. If you are the original author of any book on QuickRead and want us to remove it, please contact us at hello@quickread.com.\", \"readingModes\": {\"text\": false, \"image\": true}, \"pageCount\": 16, \"printType\": \"BOOK\", \"categories\": [\"Study Aids\"], \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": true, \"contentVersion\": \"0.1.2.0.preview.1\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=IsfpDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=IsfpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=IsfpDwAAQBAJ&printsec=frontcover&dq=Steven+Pressfield+-+Do+the+Work&hl=&cd=1&source=gbs_api\", \"infoLink\": \"https://play.google.com/store/books/details?id=IsfpDwAAQBAJ&source=gbs_api\", \"canonicalVolumeLink\": \"https://play.google.com/store/books/details?id=IsfpDwAAQBAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=m1UDrgEACAAJ&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko - Eiji Yoshikawa.pdf",
+      "file_name": "Taiko - Eiji Yoshikawa.pdf",
+      "status": "matched",
+      "search_query": "Taiko - Eiji Yoshikawa",
+      "google_books_id": "CNMewgEACAAJ",
+      "google_books_url": "https://books.google.com/books?id=CNMewgEACAAJ",
+      "metadata_json": "{\"title\": \"Taiko\", \"authors\": [\"Eiji Yoshikawa\"], \"publishedDate\": \"1998\", \"industryIdentifiers\": [{\"type\": \"ISBN_10\", \"identifier\": \"4770023677\"}, {\"type\": \"ISBN_13\", \"identifier\": \"9784770023674\"}], \"readingModes\": {\"text\": false, \"image\": false}, \"pageCount\": 221, \"printType\": \"BOOK\", \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"preview-1.0.0\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=CNMewgEACAAJ&dq=Taiko+-+Eiji+Yoshikawa&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=CNMewgEACAAJ&dq=Taiko+-+Eiji+Yoshikawa&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/Taiko.html?hl=&id=CNMewgEACAAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=7eViflk6d9IC"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/William Bolitho - Twelve Against the Gods.pdf",
+      "file_name": "William Bolitho - Twelve Against the Gods.pdf",
+      "status": "matched",
+      "search_query": "William Bolitho - Twelve Against the Gods",
+      "google_books_id": "7kC4tgAACAAJ",
+      "google_books_url": "https://books.google.com/books?id=7kC4tgAACAAJ",
+      "metadata_json": "{\"title\": \"Twelve Against the Gods\", \"subtitle\": \"The Story of Adventure by William Bolitho. [Illustr.].\", \"authors\": [\"William Bolitho Ryall\"], \"publishedDate\": \"1930\", \"industryIdentifiers\": [{\"type\": \"OTHER\", \"identifier\": \"OCLC:185593773\"}], \"readingModes\": {\"text\": false, \"image\": false}, \"printType\": \"BOOK\", \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"preview-1.0.0\", \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=7kC4tgAACAAJ&dq=William+Bolitho+-+Twelve+Against+the+Gods&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=7kC4tgAACAAJ&dq=William+Bolitho+-+Twelve+Against+the+Gods&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/Twelve_Against_the_Gods.html?hl=&id=7kC4tgAACAAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=-zlcZKSefigC&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Frank Herbert - Dune (1965).epub",
+      "file_name": "Frank Herbert - Dune (1965).epub",
+      "status": "matched",
+      "search_query": "Dune Frank Herbert",
+      "google_books_id": "a9ztzwEACAAJ",
+      "google_books_url": "https://books.google.com/books?id=a9ztzwEACAAJ",
+      "metadata_json": "{\"title\": \"Dune: Bagian 1\", \"authors\": [\"Frank Herbert\"], \"publishedDate\": \"2023-04-05\", \"description\": \"Di planet Arrakis, kisah seorang pemuda bernama Paul Atreides bermula. Ayah Paul ditunjuk oleh Imperium sebagai penguasa di planet gurun tersebut yang juga dikenal dengan nama Dune itu. Meski bukan merupakan tempat yang nyaman untuk tinggal, Arrakis punya rempah berharga yang diperebutkan di seluruh jagat raya. Maka ketika Klan Atreides dikhianati, kehancuran keluarganya membuat Paul harus menempuh perjalanan menjemput takdir menuju padang pasir. Profil Penulis: FRANK HERBERT (1920–1986) adalah kreator Dune, novel fiksi sains paling digandrungi sepanjang sejarah. Kini karya tersebut kian populer, selalu ada pembaca baru yang jatuh cinta dan mengajak orang lain untuk ikut membacanya. Dune telah diterjemahkan ke dalam belasan bahasa dan terjual lebih dari 20 juta kopi. Semasa kanak-kanaknya di Washington, Frank Herbert adalah bocah kecil dengan rasa ingin tahu yang besar. Dia membawa buku ke mana-mana dan selalu terlihat sedang membaca. Frank menyukai kisah petualangan Rover Boys, buku-buku H.G. Wells dan Jules Verne, serta fiksi sains karya Edgar Rice Burroughs. Pada ulang tahunnya yang kedelapan, ketika sarapan Frank mengumumkan di meja makan, “Aku mau jadi penulis.” Di sekolah, dia dikenal sebagai si serbatahu. Jika salah satu teman sekelasnya punya pertanyaan mengenai apa pun yang rumit-rumit, teman yang lain akan berkata, “Tanya Herbert saja, dia pasti tahu.” Sayangnya, karakter Frank kian menyulitkannya saat beranjak dewasa. Dia tidak lulus kuliah karena tidak mau mengambil mata kuliah wajib—dia hanya mengambil kelas-kelas yang dia minati saja. Selama bertahun-tahun dia mencari nafkah dengan susah payah, pindah dari satu kerjaan ke kerjaan lain, dari satu kota ke kota lain. Frank terlalu idealis dan menolak tawaran menulis untuk tujuan tertentu—dia hanya mau menulis yang dia senangi saja. Butuh enam tahun riset untuk menyelesaikan Dune, dan bahkan setelah perjuangan dan pengorbanan tersebut Frank ditolak oleh 23 penerbit sebelum akhirnya naskahnya diterima dan terjual dengan nilai kontrak yang tidak seberapa.\", \"industryIdentifiers\": [{\"type\": \"ISBN_10\", \"identifier\": \"6231340066\"}, {\"type\": \"ISBN_13\", \"identifier\": \"9786231340061\"}], \"readingModes\": {\"text\": false, \"image\": false}, \"pageCount\": 0, \"printType\": \"BOOK\", \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"preview-1.0.0\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"language\": \"id\", \"previewLink\": \"http://books.google.co.id/books?id=a9ztzwEACAAJ&dq=Dune+Frank+Herbert&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=a9ztzwEACAAJ&dq=Dune+Frank+Herbert&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/Dune_Bagian_1.html?hl=&id=a9ztzwEACAAJ\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=B1hSG45JCX4C&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/NASA - NASA Systems Engineering Handbook.pdf",
+      "file_name": "NASA - NASA Systems Engineering Handbook.pdf",
+      "status": "matched",
+      "search_query": "NASA - NASA Systems Engineering Handbook",
+      "google_books_id": "2CDrawe5AvEC",
+      "google_books_url": "https://books.google.com/books?id=2CDrawe5AvEC",
+      "metadata_json": "{\"title\": \"NASA Systems Engineering Handbook\", \"authors\": [\"Stephen J. Kapurch\"], \"publisher\": \"DIANE Publishing\", \"publishedDate\": \"2010-11\", \"description\": \"Provides general guidance and information on systems engineering that will be useful to the NASA community. It provides a generic description of Systems Engineering (SE) as it should be applied throughout NASA. The handbook will increase awareness and consistency across the Agency and advance the practice of SE. This handbook provides perspectives relevant to NASA and data particular to NASA. Covers general concepts and generic descriptions of processes, tools, and techniques. It provides information on systems engineering best practices and pitfalls to avoid. Describes systems engineering as it should be applied to the development and implementation of large and small NASA programs and projects. Charts and tables.\", \"industryIdentifiers\": [{\"type\": \"ISBN_13\", \"identifier\": \"9781437937305\"}, {\"type\": \"ISBN_10\", \"identifier\": \"1437937306\"}], \"readingModes\": {\"text\": false, \"image\": true}, \"pageCount\": 360, \"printType\": \"BOOK\", \"categories\": [\"Science\"], \"averageRating\": 5, \"ratingsCount\": 1, \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": true, \"contentVersion\": \"1.3.3.0.preview.1\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=2CDrawe5AvEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=2CDrawe5AvEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=2CDrawe5AvEC&printsec=frontcover&dq=NASA+-+NASA+Systems+Engineering+Handbook&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=2CDrawe5AvEC&dq=NASA+-+NASA+Systems+Engineering+Handbook&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/NASA_Systems_Engineering_Handbook.html?hl=&id=2CDrawe5AvEC\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=9-p0swEACAAJ&redir_esc=y&hl=en"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Physics and Philosophy.pdf",
+      "file_name": "Physics and Philosophy.pdf",
+      "status": "matched",
+      "search_query": "Physics and Philosophy",
+      "google_books_id": "AEvprSJzv2MC",
+      "google_books_url": "https://books.google.com/books?id=AEvprSJzv2MC",
+      "metadata_json": "{\"title\": \"Physics, Philosophy and Psychoanalysis\", \"subtitle\": \"Essays in Honour of A. Grünbaum\", \"authors\": [\"Robert S. Cohen\", \"Larry Laudan\"], \"publisher\": \"Springer Science & Business Media\", \"publishedDate\": \"1983-04-30\", \"description\": \"A festschrift dedicated to Adolf Grünbaum on the occasion of his 60th birthday, this volume contains contributions which are original works on scientific and philosophical issues related to his fields of scholarship. Adolf Grünbaum is a leading philosopher of space and time, and of the logical foundations of psychoanalytic theory in the English-speaking world. The philosophers who have contributed are a noteworthy group. The collection is complemented by a biographical memoir and a complete bibliography of Grünbaum's publications.\", \"industryIdentifiers\": [{\"type\": \"ISBN_10\", \"identifier\": \"9027715335\"}, {\"type\": \"ISBN_13\", \"identifier\": \"9789027715333\"}], \"readingModes\": {\"text\": false, \"image\": true}, \"pageCount\": 372, \"printType\": \"BOOK\", \"categories\": [\"Medical\"], \"maturityRating\": \"NOT_MATURE\", \"allowAnonLogging\": false, \"contentVersion\": \"0.8.8.0.preview.1\", \"panelizationSummary\": {\"containsEpubBubbles\": false, \"containsImageBubbles\": false}, \"imageLinks\": {\"smallThumbnail\": \"http://books.google.com/books/content?id=AEvprSJzv2MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\", \"thumbnail\": \"http://books.google.com/books/content?id=AEvprSJzv2MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"}, \"language\": \"en\", \"previewLink\": \"http://books.google.co.id/books?id=AEvprSJzv2MC&pg=PA209&dq=Physics+and+Philosophy&hl=&cd=1&source=gbs_api\", \"infoLink\": \"http://books.google.co.id/books?id=AEvprSJzv2MC&dq=Physics+and+Philosophy&hl=&source=gbs_api\", \"canonicalVolumeLink\": \"https://books.google.com/books/about/Physics_Philosophy_and_Psychoanalysis.html?hl=&id=AEvprSJzv2MC\"}",
+      "lookup_error": "",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=Jz8LAQAAIAAJ&redir_esc=y"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/The da Vinci Curse, Life Design for People with Too Many Interests and Talents.epub",
+      "file_name": "The da Vinci Curse, Life Design for People with Too Many Interests and Talents.epub",
+      "status": "not_found",
+      "search_query": "聪明人的才华战略 ［德］莱昂纳多·洛斯佩纳托（Leonardo Lospennato）;符蕊译",
+      "google_books_id": "",
+      "google_books_url": "",
+      "metadata_json": "",
+      "lookup_error": "no results",
+      "review_flag": "incorrect",
+      "manual_google_books_url": "https://books.google.co.id/books?id=NkfdMgEACAAJ&redir_esc=y"
+    }
+  ]
+}

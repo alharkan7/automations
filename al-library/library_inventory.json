@@ -2,20 +2,26 @@
   "summary": {
     "downloads_dir": "/Users/alharkan/Downloads",
     "lib_glob": "Lib*",
+    "extensions_filter": [
+      ".azw3",
+      ".djvu",
+      ".epub",
+      ".mobi",
+      ".pdf"
+    ],
     "roots_matched": [
       "/Users/alharkan/Downloads/Library"
     ],
-    "total_files": 146,
+    "total_files": 125,
     "by_extension": {
-      ".epub": 39,
-      ".pdf": 107
+      ".epub": 35,
+      ".pdf": 90
     },
     "by_top_folder": {
-      "Lib 1 - Asus": 88,
+      "Lib 1 - Asus": 73,
       "Lib 4 - Mac": 30,
-      "Lib 3 - Dell": 22,
-      "Lib 2 - SEA Today": 4,
-      "Papers": 2
+      "Lib 3 - Dell": 21,
+      "Lib 2 - SEA Today": 1
     }
   },
   "files": [
@@ -33,14 +39,6 @@
       "file_stem": "Albert Einstein - The World As I See It",
       "extension": ".pdf",
       "rel_path": "Lib 1 - Asus/Albert Einstein - The World As I See It.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Angels and Demons.pdf",
-      "file_name": "Angels and Demons.pdf",
-      "file_stem": "Angels and Demons",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Angels and Demons.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -92,6 +90,30 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Dan Brown - Angels and Demons.pdf",
+      "file_name": "Dan Brown - Angels and Demons.pdf",
+      "file_stem": "Dan Brown - Angels and Demons",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Dan Brown - Angels and Demons.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Dan Brown - Inferno.pdf",
+      "file_name": "Dan Brown - Inferno.pdf",
+      "file_stem": "Dan Brown - Inferno",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Dan Brown - Inferno.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Dan Brown - Origin.pdf",
+      "file_name": "Dan Brown - Origin.pdf",
+      "file_stem": "Dan Brown - Origin",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Dan Brown - Origin.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Deception Point.pdf",
       "file_name": "Deception Point.pdf",
       "file_stem": "Deception Point",
@@ -116,59 +138,11 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Eric Jorgenson - The Almanack of Naval Ravikant.pdf",
-      "file_name": "Eric Jorgenson - The Almanack of Naval Ravikant.pdf",
-      "file_stem": "Eric Jorgenson - The Almanack of Naval Ravikant",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Eric Jorgenson - The Almanack of Naval Ravikant.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Exurb1a - Logic Beach - Part I (2017).epub",
-      "file_name": "Exurb1a - Logic Beach - Part I (2017).epub",
-      "file_stem": "Exurb1a - Logic Beach - Part I (2017)",
-      "extension": ".epub",
-      "rel_path": "Lib 1 - Asus/Exurb1a - Logic Beach - Part I (2017).epub",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Exurb1a - The Bridge to Lucy Dunne (2016).epub",
-      "file_name": "Exurb1a - The Bridge to Lucy Dunne (2016).epub",
-      "file_stem": "Exurb1a - The Bridge to Lucy Dunne (2016)",
-      "extension": ".epub",
-      "rel_path": "Lib 1 - Asus/Exurb1a - The Bridge to Lucy Dunne (2016).epub",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Exurb1a - The Fifth Science (2018).epub",
-      "file_name": "Exurb1a - The Fifth Science (2018).epub",
-      "file_stem": "Exurb1a - The Fifth Science (2018)",
-      "extension": ".epub",
-      "rel_path": "Lib 1 - Asus/Exurb1a - The Fifth Science (2018).epub",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Exurb1a - The Prince of Milk (2017).epub",
-      "file_name": "Exurb1a - The Prince of Milk (2017).epub",
-      "file_stem": "Exurb1a - The Prince of Milk (2017)",
-      "extension": ".epub",
-      "rel_path": "Lib 1 - Asus/Exurb1a - The Prince of Milk (2017).epub",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Finding Your Element.epub",
       "file_name": "Finding Your Element.epub",
       "file_stem": "Finding Your Element",
       "extension": ".epub",
       "rel_path": "Lib 1 - Asus/Finding Your Element.epub",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/From Zero to One.pdf",
-      "file_name": "From Zero to One.pdf",
-      "file_stem": "From Zero to One",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/From Zero to One.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -252,14 +226,6 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Inferno.pdf",
-      "file_name": "Inferno.pdf",
-      "file_stem": "Inferno",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Inferno.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Isaac Asimov - The Foundation (Complete Trilogy).pdf",
       "file_name": "Isaac Asimov - The Foundation (Complete Trilogy).pdf",
       "file_stem": "Isaac Asimov - The Foundation (Complete Trilogy)",
@@ -268,11 +234,11 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/John Gray, Ph.D. - Men Are From Mars, Women Are From Venus.pdf",
-      "file_name": "John Gray, Ph.D. - Men Are From Mars, Women Are From Venus.pdf",
-      "file_stem": "John Gray, Ph.D. - Men Are From Mars, Women Are From Venus",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/John Gray - Men Are From Mars, Women Are From Venus.pdf",
+      "file_name": "John Gray - Men Are From Mars, Women Are From Venus.pdf",
+      "file_stem": "John Gray - Men Are From Mars, Women Are From Venus",
       "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/John Gray, Ph.D. - Men Are From Mars, Women Are From Venus.pdf",
+      "rel_path": "Lib 1 - Asus/John Gray - Men Are From Mars, Women Are From Venus.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -300,6 +266,14 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Luo Guanzhong - Romance of the Three Kingdoms.pdf",
+      "file_name": "Luo Guanzhong - Romance of the Three Kingdoms.pdf",
+      "file_stem": "Luo Guanzhong - Romance of the Three Kingdoms",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Luo Guanzhong - Romance of the Three Kingdoms.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Madeleine L'Engle - A Wrinkle in Time.epub",
       "file_name": "Madeleine L'Engle - A Wrinkle in Time.epub",
       "file_stem": "Madeleine L'Engle - A Wrinkle in Time",
@@ -324,11 +298,11 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Mestakung - Rahasia Sukses Juara Dunia Olimpiade Fisika.pdf",
-      "file_name": "Mestakung - Rahasia Sukses Juara Dunia Olimpiade Fisika.pdf",
-      "file_stem": "Mestakung - Rahasia Sukses Juara Dunia Olimpiade Fisika",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Muhammad Husain Haekal - Umar bin Khattab.pdf",
+      "file_name": "Muhammad Husain Haekal - Umar bin Khattab.pdf",
+      "file_stem": "Muhammad Husain Haekal - Umar bin Khattab",
       "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Mestakung - Rahasia Sukses Juara Dunia Olimpiade Fisika.pdf",
+      "rel_path": "Lib 1 - Asus/Muhammad Husain Haekal - Umar bin Khattab.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -380,14 +354,6 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Origin.pdf",
-      "file_name": "Origin.pdf",
-      "file_stem": "Origin",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Origin.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Paul Kalanithi - When Breath Becomes Air.epub",
       "file_name": "Paul Kalanithi - When Breath Becomes Air.epub",
       "file_stem": "Paul Kalanithi - When Breath Becomes Air",
@@ -404,11 +370,27 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Paulo Coelho - The Alchemist.pdf",
+      "file_name": "Paulo Coelho - The Alchemist.pdf",
+      "file_stem": "Paulo Coelho - The Alchemist",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Paulo Coelho - The Alchemist.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Paulo Coelho - The Pilgrimage.pdf",
       "file_name": "Paulo Coelho - The Pilgrimage.pdf",
       "file_stem": "Paulo Coelho - The Pilgrimage",
       "extension": ".pdf",
       "rel_path": "Lib 1 - Asus/Paulo Coelho - The Pilgrimage.pdf",
+      "top_folder": "Lib 1 - Asus"
+    },
+    {
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Peter Thiel - From Zero to One Notes on Startups, or How to Build the Future.pdf",
+      "file_name": "Peter Thiel - From Zero to One Notes on Startups, or How to Build the Future.pdf",
+      "file_stem": "Peter Thiel - From Zero to One Notes on Startups, or How to Build the Future",
+      "extension": ".pdf",
+      "rel_path": "Lib 1 - Asus/Peter Thiel - From Zero to One Notes on Startups, or How to Build the Future.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -433,14 +415,6 @@
       "file_stem": "Robert T. Kiyosaki - Rich Dad Poor Dad",
       "extension": ".pdf",
       "rel_path": "Lib 1 - Asus/Robert T. Kiyosaki - Rich Dad Poor Dad.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Romance of the Three Kingdoms.pdf",
-      "file_name": "Romance of the Three Kingdoms.pdf",
-      "file_stem": "Romance of the Three Kingdoms",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Romance of the Three Kingdoms.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -516,83 +490,11 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 1.pdf",
-      "file_name": "Taiko Buku 1.pdf",
-      "file_stem": "Taiko Buku 1",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko - Eiji Yoshikawa.pdf",
+      "file_name": "Taiko - Eiji Yoshikawa.pdf",
+      "file_stem": "Taiko - Eiji Yoshikawa",
       "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 1.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 10.pdf",
-      "file_name": "Taiko Buku 10.pdf",
-      "file_stem": "Taiko Buku 10",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 10.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 2.pdf",
-      "file_name": "Taiko Buku 2.pdf",
-      "file_stem": "Taiko Buku 2",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 2.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 3.pdf",
-      "file_name": "Taiko Buku 3.pdf",
-      "file_stem": "Taiko Buku 3",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 3.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 4.pdf",
-      "file_name": "Taiko Buku 4.pdf",
-      "file_stem": "Taiko Buku 4",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 4.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 5.pdf",
-      "file_name": "Taiko Buku 5.pdf",
-      "file_stem": "Taiko Buku 5",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 5.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 6.pdf",
-      "file_name": "Taiko Buku 6.pdf",
-      "file_stem": "Taiko Buku 6",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 6.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 7.pdf",
-      "file_name": "Taiko Buku 7.pdf",
-      "file_stem": "Taiko Buku 7",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 7.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko Buku 9.pdf",
-      "file_name": "Taiko Buku 9.pdf",
-      "file_stem": "Taiko Buku 9",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko Buku 9.pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Taiko buku 8.pdf",
-      "file_name": "Taiko buku 8.pdf",
-      "file_stem": "Taiko buku 8",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Taiko buku 8.pdf",
+      "rel_path": "Lib 1 - Asus/Taiko - Eiji Yoshikawa.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -601,14 +503,6 @@
       "file_stem": "Tan Malaka - Madilog (1943)",
       "extension": ".pdf",
       "rel_path": "Lib 1 - Asus/Tan Malaka - Madilog (1943).pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/The Alchemist.pdf",
-      "file_name": "The Alchemist.pdf",
-      "file_stem": "The Alchemist",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/The Alchemist.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -676,14 +570,6 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Thomas M. Nichols - The Death of Expertise (2017).pdf",
-      "file_name": "Thomas M. Nichols - The Death of Expertise (2017).pdf",
-      "file_stem": "Thomas M. Nichols - The Death of Expertise (2017)",
-      "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Thomas M. Nichols - The Death of Expertise (2017).pdf",
-      "top_folder": "Lib 1 - Asus"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Timothy Ferriss - The 4-Hour Workweek.pdf",
       "file_name": "Timothy Ferriss - The 4-Hour Workweek.pdf",
       "file_stem": "Timothy Ferriss - The 4-Hour Workweek",
@@ -692,19 +578,19 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Umar bin Khattab.pdf",
-      "file_name": "Umar bin Khattab.pdf",
-      "file_stem": "Umar bin Khattab",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/Tom Nichols - The Death of Expertise.pdf",
+      "file_name": "Tom Nichols - The Death of Expertise.pdf",
+      "file_stem": "Tom Nichols - The Death of Expertise",
       "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/Umar bin Khattab.pdf",
+      "rel_path": "Lib 1 - Asus/Tom Nichols - The Death of Expertise.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/William Bolitho - Twelve Against the Gods (1950).pdf",
-      "file_name": "William Bolitho - Twelve Against the Gods (1950).pdf",
-      "file_stem": "William Bolitho - Twelve Against the Gods (1950)",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 1 - Asus/William Bolitho - Twelve Against the Gods.pdf",
+      "file_name": "William Bolitho - Twelve Against the Gods.pdf",
+      "file_stem": "William Bolitho - Twelve Against the Gods",
       "extension": ".pdf",
-      "rel_path": "Lib 1 - Asus/William Bolitho - Twelve Against the Gods (1950).pdf",
+      "rel_path": "Lib 1 - Asus/William Bolitho - Twelve Against the Gods.pdf",
       "top_folder": "Lib 1 - Asus"
     },
     {
@@ -724,30 +610,6 @@
       "top_folder": "Lib 1 - Asus"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 2 - SEA Today/Ashlee Vance - Elon Musk - Tesla, SpaceX, and the Quest for a Fantastic Future (2015).pdf",
-      "file_name": "Ashlee Vance - Elon Musk - Tesla, SpaceX, and the Quest for a Fantastic Future (2015).pdf",
-      "file_stem": "Ashlee Vance - Elon Musk - Tesla, SpaceX, and the Quest for a Fantastic Future (2015)",
-      "extension": ".pdf",
-      "rel_path": "Lib 2 - SEA Today/Ashlee Vance - Elon Musk - Tesla, SpaceX, and the Quest for a Fantastic Future (2015).pdf",
-      "top_folder": "Lib 2 - SEA Today"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 2 - SEA Today/David Deutsch - The Beginning of Infinity - Explanations that Transform The World.pdf",
-      "file_name": "David Deutsch - The Beginning of Infinity - Explanations that Transform The World.pdf",
-      "file_stem": "David Deutsch - The Beginning of Infinity - Explanations that Transform The World",
-      "extension": ".pdf",
-      "rel_path": "Lib 2 - SEA Today/David Deutsch - The Beginning of Infinity - Explanations that Transform The World.pdf",
-      "top_folder": "Lib 2 - SEA Today"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 2 - SEA Today/Frank Herbert - Dune (1965).pdf",
-      "file_name": "Frank Herbert - Dune (1965).pdf",
-      "file_stem": "Frank Herbert - Dune (1965)",
-      "extension": ".pdf",
-      "rel_path": "Lib 2 - SEA Today/Frank Herbert - Dune (1965).pdf",
-      "top_folder": "Lib 2 - SEA Today"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 2 - SEA Today/Paul Graham - Hackers and Painters - Big Ideas from the Computer Age (2010).pdf",
       "file_name": "Paul Graham - Hackers and Painters - Big Ideas from the Computer Age (2010).pdf",
       "file_stem": "Paul Graham - Hackers and Painters - Big Ideas from the Computer Age (2010)",
@@ -764,14 +626,6 @@
       "top_folder": "Lib 3 - Dell"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Anything You Want - Derek Sivers.pdf",
-      "file_name": "Anything You Want - Derek Sivers.pdf",
-      "file_stem": "Anything You Want - Derek Sivers",
-      "extension": ".pdf",
-      "rel_path": "Lib 3 - Dell/Anything You Want - Derek Sivers.pdf",
-      "top_folder": "Lib 3 - Dell"
-    },
-    {
       "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Claude C. Hopkins - Scientific Advertising.pdf",
       "file_name": "Claude C. Hopkins - Scientific Advertising.pdf",
       "file_stem": "Claude C. Hopkins - Scientific Advertising",
@@ -780,11 +634,11 @@
       "top_folder": "Lib 3 - Dell"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Facebook Red Book.pdf",
-      "file_name": "Facebook Red Book.pdf",
-      "file_stem": "Facebook Red Book",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Derek Sivers - Anything You Want, 40 Lessons for a New Kind of Entrepreneur.pdf",
+      "file_name": "Derek Sivers - Anything You Want, 40 Lessons for a New Kind of Entrepreneur.pdf",
+      "file_stem": "Derek Sivers - Anything You Want, 40 Lessons for a New Kind of Entrepreneur",
       "extension": ".pdf",
-      "rel_path": "Lib 3 - Dell/Facebook Red Book.pdf",
+      "rel_path": "Lib 3 - Dell/Derek Sivers - Anything You Want, 40 Lessons for a New Kind of Entrepreneur.pdf",
       "top_folder": "Lib 3 - Dell"
     },
     {
@@ -804,11 +658,11 @@
       "top_folder": "Lib 3 - Dell"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Isaac Asimov - The Last Question.pdf",
-      "file_name": "Isaac Asimov - The Last Question.pdf",
-      "file_stem": "Isaac Asimov - The Last Question",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Isaac Asimov_ The Complete Stories.epub",
+      "file_name": "Isaac Asimov_ The Complete Stories.epub",
+      "file_stem": "IIsaac Asimov_ The Complete Stories",
       "extension": ".pdf",
-      "rel_path": "Lib 3 - Dell/Isaac Asimov - The Last Question.pdf",
+      "rel_path": "Lib 3 - Dell/Isaac Asimov_ The Complete Stories.epub",
       "top_folder": "Lib 3 - Dell"
     },
     {
@@ -900,19 +754,11 @@
       "top_folder": "Lib 3 - Dell"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/Situational Awareness.pdf",
-      "file_name": "Situational Awareness.pdf",
-      "file_stem": "Situational Awareness",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/The Way Things Work, An Illustrated Encyclopedia of Technology.pdf",
+      "file_name": "The Way Things Work, An Illustrated Encyclopedia of Technology.pdf",
+      "file_stem": "The Way Things Work, An Illustrated Encyclopedia of Technology",
       "extension": ".pdf",
-      "rel_path": "Lib 3 - Dell/Situational Awareness.pdf",
-      "top_folder": "Lib 3 - Dell"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 3 - Dell/The Way Things Work.pdf",
-      "file_name": "The Way Things Work.pdf",
-      "file_stem": "The Way Things Work",
-      "extension": ".pdf",
-      "rel_path": "Lib 3 - Dell/The Way Things Work.pdf",
+      "rel_path": "Lib 3 - Dell/The Way Things Work, An Illustrated Encyclopedia of Technology.pdf",
       "top_folder": "Lib 3 - Dell"
     },
     {
@@ -996,19 +842,19 @@
       "top_folder": "Lib 4 - Mac"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Dune (1965).epub",
-      "file_name": "Dune (1965).epub",
-      "file_stem": "Dune (1965)",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Frank Herbert - Dune (1965).epub",
+      "file_name": "Frank Herbert - Dune (1965).epub",
+      "file_stem": "Frank Herbert - Dune (1965)",
       "extension": ".epub",
-      "rel_path": "Lib 4 - Mac/Dune (1965).epub",
+      "rel_path": "Lib 4 - Mac/Frank Herbert - Dune (1965).epub",
       "top_folder": "Lib 4 - Mac"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Dune Messiah.epub",
-      "file_name": "Dune Messiah.epub",
-      "file_stem": "Dune Messiah",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Frank Herbert - Dune Messiah.epub",
+      "file_name": "Frank Herbert - Dune Messiah.epub",
+      "file_stem": "Frank Herbert - Dune Messiah",
       "extension": ".epub",
-      "rel_path": "Lib 4 - Mac/Dune Messiah.epub",
+      "rel_path": "Lib 4 - Mac/Frank Herbert - Dune Messiah.epub",
       "top_folder": "Lib 4 - Mac"
     },
     {
@@ -1044,19 +890,11 @@
       "top_folder": "Lib 4 - Mac"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Immortal Stream Of Consciousness.pdf",
-      "file_name": "Immortal Stream Of Consciousness.pdf",
-      "file_stem": "Immortal Stream Of Consciousness",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Jeffrey Lant - Cash Copy, How to Offer Your Products and Services so Your Prospects Buy Them Now.pdf",
+      "file_name": "Jeffrey Lant - Cash Copy, How to Offer Your Products and Services so Your Prospects Buy Them Now.pdf",
+      "file_stem": "Jeffrey Lant - Cash Copy, How to Offer Your Products and Services so Your Prospects Buy Them Now",
       "extension": ".pdf",
-      "rel_path": "Lib 4 - Mac/Immortal Stream Of Consciousness.pdf",
-      "top_folder": "Lib 4 - Mac"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/Jeffrey Lang - Cash Copy.pdf",
-      "file_name": "Jeffrey Lang - Cash Copy.pdf",
-      "file_stem": "Jeffrey Lang - Cash Copy",
-      "extension": ".pdf",
-      "rel_path": "Lib 4 - Mac/Jeffrey Lang - Cash Copy.pdf",
+      "rel_path": "Lib 4 - Mac/Jeffrey Lant - Cash Copy, How to Offer Your Products and Services so Your Prospects Buy Them Now.pdf",
       "top_folder": "Lib 4 - Mac"
     },
     {
@@ -1076,11 +914,11 @@
       "top_folder": "Lib 4 - Mac"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/NASA Systems Engineering Handbook.pdf",
-      "file_name": "NASA Systems Engineering Handbook.pdf",
-      "file_stem": "NASA Systems Engineering Handbook",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/NASA - NASA Systems Engineering Handbook.pdf",
+      "file_name": "NASA - NASA Systems Engineering Handbook.pdf",
+      "file_stem": "NASA - NASA Systems Engineering Handbook",
       "extension": ".pdf",
-      "rel_path": "Lib 4 - Mac/NASA Systems Engineering Handbook.pdf",
+      "rel_path": "Lib 4 - Mac/NASA - NASA Systems Engineering Handbook.pdf",
       "top_folder": "Lib 4 - Mac"
     },
     {
@@ -1148,11 +986,11 @@
       "top_folder": "Lib 4 - Mac"
     },
     {
-      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/The da Vinci Curse.epub",
-      "file_name": "The da Vinci Curse.epub",
-      "file_stem": "The da Vinci Curse",
+      "file_path": "/Users/alharkan/Downloads/Library/Lib 4 - Mac/The da Vinci Curse, Life Design for People with Too Many Interests and Talents.epub",
+      "file_name": "The da Vinci Curse, Life Design for People with Too Many Interests and Talents.epub",
+      "file_stem": "The da Vinci Curse, Life Design for People with Too Many Interests and Talents",
       "extension": ".epub",
-      "rel_path": "Lib 4 - Mac/The da Vinci Curse.epub",
+      "rel_path": "Lib 4 - Mac/The da Vinci Curse, Life Design for People with Too Many Interests and Talents.epub",
       "top_folder": "Lib 4 - Mac"
     },
     {
@@ -1170,22 +1008,6 @@
       "extension": ".epub",
       "rel_path": "Lib 4 - Mac/Yves Dupont - L'Empreinte de Dieu dans le monde quantique.epub",
       "top_folder": "Lib 4 - Mac"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Papers/Attention is All You Need.pdf",
-      "file_name": "Attention is All You Need.pdf",
-      "file_stem": "Attention is All You Need",
-      "extension": ".pdf",
-      "rel_path": "Papers/Attention is All You Need.pdf",
-      "top_folder": "Papers"
-    },
-    {
-      "file_path": "/Users/alharkan/Downloads/Library/Papers/Renaissance Minds in 21st Century Science.pdf",
-      "file_name": "Renaissance Minds in 21st Century Science.pdf",
-      "file_stem": "Renaissance Minds in 21st Century Science",
-      "extension": ".pdf",
-      "rel_path": "Papers/Renaissance Minds in 21st Century Science.pdf",
-      "top_folder": "Papers"
     }
   ]
 }
