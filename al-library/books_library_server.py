@@ -111,6 +111,13 @@ def load_books(csv_path: Path) -> list[dict[str, Any]]:
                 author_str = ", ".join(str(a) for a in authors if a)
             else:
                 author_str = str(authors) if authors else ""
+            categories = meta.get("categories") or []
+            if not isinstance(categories, list):
+                categories = [categories] if categories else []
+            category_list = [str(c).strip() for c in categories if c]
+            publisher = (meta.get("publisher") or "").strip()
+            published_date = (meta.get("publishedDate") or "").strip()
+            language = (meta.get("language") or "").strip()
             display_title = title or Path(row.get("file_name", "")).stem
             rows.append(
                 {
@@ -124,6 +131,10 @@ def load_books(csv_path: Path) -> list[dict[str, Any]]:
                     "display_title": display_title,
                     "display_subtitle": subtitle,
                     "display_author": author_str,
+                    "categories": category_list,
+                    "publisher": publisher,
+                    "published_date": published_date,
+                    "language": language,
                     "lookup_error": row.get("lookup_error") or "",
                     "review_flag": (row.get(REVIEW_FLAG_COL) or "").strip(),
                 }
@@ -480,6 +491,18 @@ def build_html_payload(books: list[dict[str, Any]], *, standalone_fetch_reveal: 
         <option value="desc">Title Z → A</option>
       </select>
     </div>
+    <div class="sort-wrap">
+      <label for="cat-filter">Category</label>
+      <select id="cat-filter" class="sort-select" aria-label="Filter books by Google Books category">
+        <option value="all">All</option>
+      </select>
+    </div>
+    <div class="sort-wrap">
+      <label for="lang-filter">Language</label>
+      <select id="lang-filter" class="sort-select" aria-label="Filter books by language">
+        <option value="all">All</option>
+      </select>
+    </div>
     <div class="chips" id="chips">
       <button type="button" class="chip on" data-f="all">All</button>
       <button type="button" class="chip" data-f="matched">Matched</button>
@@ -497,11 +520,50 @@ def build_html_payload(books: list[dict[str, Any]], *, standalone_fetch_reveal: 
     const shelf = document.getElementById('shelf');
     const qEl = document.getElementById('q');
     const sortEl = document.getElementById('sort-title');
+    const catEl = document.getElementById('cat-filter');
+    const langEl = document.getElementById('lang-filter');
     const countsEl = document.getElementById('counts');
     let filter = 'all';
     let query = '';
     let sortTitle = 'original';
+    let catFilter = 'all';
+    let langFilter = 'all';
     const titleCollator = new Intl.Collator(undefined, {{ sensitivity: 'base', numeric: true }});
+    const catCollator = new Intl.Collator(undefined, {{ sensitivity: 'base', numeric: true }});
+
+    // Populate category dropdown from embedded book metadata.
+    (function initCategories() {{
+      const set = new Set();
+      books.forEach(b => {{
+        (b.categories || []).forEach(c => {{
+          if (c) set.add(c);
+        }});
+      }});
+      const cats = Array.from(set);
+      cats.sort((a,b) => catCollator.compare(a,b));
+      for (const c of cats) {{
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        catEl.appendChild(opt);
+      }}
+    }})();
+
+    (function initLanguages() {{
+      const set = new Set();
+      books.forEach(b => {{
+        const l = (b.language || '').trim();
+        if (l) set.add(l);
+      }});
+      const langs = Array.from(set);
+      langs.sort((a,b) => catCollator.compare(a,b));
+      for (const l of langs) {{
+        const opt = document.createElement('option');
+        opt.value = l;
+        opt.textContent = l;
+        langEl.appendChild(opt);
+      }}
+    }})();
 
     function sortByTitle(arr) {{
       if (sortTitle === 'original') return arr;
@@ -572,12 +634,25 @@ def build_html_payload(books: list[dict[str, Any]], *, standalone_fetch_reveal: 
     }}
 
     function matches(b) {{
-      if (filter === 'flagged') return b.review_flag === 'incorrect';
-      if (filter !== 'all' && b.status !== filter) return false;
+      if (filter === 'flagged') {{
+        if (b.review_flag !== 'incorrect') return false;
+      }} else {{
+        if (filter !== 'all' && b.status !== filter) return false;
+      }}
+      if (catFilter !== 'all') {{
+        const cats = b.categories || [];
+        if (!cats.includes(catFilter)) return false;
+      }}
+      if (langFilter !== 'all') {{
+        const l = (b.language || '').trim();
+        if (!l || l !== langFilter) return false;
+      }}
       if (!query) return true;
       const s = (query.toLowerCase());
       const hay = [
-        b.display_title, b.display_subtitle, b.display_author, b.file_name, b.file_path, b.search_query
+        b.display_title, b.display_subtitle, b.display_author, b.file_name, b.file_path, b.search_query,
+        (b.categories && b.categories.length) ? b.categories.join(' ') : '',
+        (b.language || '')
       ].join(' ').toLowerCase();
       return hay.includes(s);
     }}
@@ -655,6 +730,8 @@ def build_html_payload(books: list[dict[str, Any]], *, standalone_fetch_reveal: 
     }});
     qEl.addEventListener('input', () => {{ query = qEl.value.trim(); render(); }});
     sortEl.addEventListener('change', () => {{ sortTitle = sortEl.value; render(); }});
+    catEl.addEventListener('change', () => {{ catFilter = catEl.value; render(); }});
+    langEl.addEventListener('change', () => {{ langFilter = langEl.value; render(); }});
     render();
   </script>
 </body>
