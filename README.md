@@ -16,6 +16,7 @@ A collection of Python scripts, Chrome extensions, and tools for personal produc
 | **code-execution-analysis** | Analysis of code execution patterns | Python |
 | **compress** | Image compression utilities | Python |
 | **prisma** | Prisma ORM related tools | TypeScript |
+| **to-markdown** | PDF to Markdown batch converter | Python |
 
 ## Getting Started
 
@@ -72,6 +73,12 @@ Academic literature review tool featuring:
 - Iterative OpenAlex search
 - Gemini-powered relevance evaluation
 - Streamlit UI for interactive queries
+
+### to-markdown
+Simple batch PDF to Markdown converter:
+- Uses Microsoft's `markitdown`
+- Handles tables and text formatting
+- Supports batch directory processing
 
 ## License
 
