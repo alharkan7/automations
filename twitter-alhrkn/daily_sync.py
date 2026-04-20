@@ -118,11 +118,13 @@ def main():
     # Sync Bookmarks
     print("Syncing Bookmarks...")
     bookmarks = fetch_latest_100(f"https://api.x.com/2/users/{user_id}/bookmarks", access_token)
+    print(f"Received {len(bookmarks)} total bookmarks from X.")
     if bookmarks: merge_data(BOOKMARKS_FILE, bookmarks)
     
     # Sync Likes
     print("Syncing Likes...")
     likes = fetch_latest_100(f"https://api.x.com/2/users/{user_id}/liked_tweets", access_token)
+    print(f"Received {len(likes)} total likes from X.")
     if likes: merge_data(LIKES_FILE, likes)
 
 if __name__ == "__main__":
