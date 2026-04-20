@@ -96,8 +96,13 @@ if not st.session_state.access_token:
         if response.status_code == 200:
             token_data = response.json()
             st.session_state.access_token = token_data["access_token"]
+            
+            # Save tokens for cronjob use
+            with open("tokens.json", "w") as f:
+                json.dump(token_data, f)
+            
             st.query_params.clear() 
-            st.success("✅ Successfully authenticated!")
+            st.success("✅ Successfully authenticated! Tokens saved for background sync.")
             st.rerun()
         else:
             st.error("❌ **Token Exchange Failed**")

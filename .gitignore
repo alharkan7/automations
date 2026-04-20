@@ -70,3 +70,5 @@ reference-agent/results/*.html
 
 !al-library/library_inventory.json
 !al-library/google_books_scan.csv
+
+twitter-alhrkn/*.json
