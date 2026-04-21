@@ -72,3 +72,5 @@ reference-agent/results/*.html
 !al-library/google_books_scan.csv
 
 twitter-alhrkn/*.json
+
+tokens.json
