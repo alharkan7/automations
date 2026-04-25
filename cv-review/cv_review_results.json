@@ -1,0 +1,485 @@
+[
+  {
+    "cv_code": "CV 1",
+    "evaluation": {
+      "score": 10,
+      "experience_analysis": "The candidate has no relevant experience for a Data Engineer role. All listed experiences are from student organizations and focus on marketing, communication, content creation, and event coordination. There is no mention of data processing, ETL/ELT pipeline development, database management, or any tasks related to data infrastructure.",
+      "skills_analysis": "There is a complete mismatch between the candidate's skills and the technical requirements. The CV lists software like Solidworks (CAD), SPSS (statistical software), SAP (ERP), and various design tools (Canva, Figma). None of the required core skills such as Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS/GCP/Azure), orchestration tools (Airflow), or Git are mentioned.",
+      "education_analysis": "The candidate is an undergraduate student in Industrial Engineering. While this is a quantitative field, it is not one of the primary fields listed (Computer Science, IT). More importantly, the candidate's stated concentration and interest are in Human Resources (SDM), which is entirely unrelated to Data Engineering.",
+      "certifications_analysis": "The only certification listed is for a Solidworks course. Solidworks is a 3D CAD software used for mechanical design and is completely irrelevant to the Data Engineer position.",
+      "soft_skills_analysis": "The candidate lists generic soft skills such as teamwork, time management, and communication. While their organizational experience suggests they may possess these skills, they cannot compensate for the profound lack of technical qualifications.",
+      "strengths": [
+        "Active in student organizations, demonstrating initiative and teamwork.",
+        "Possesses general soft skills like communication and coordination."
+      ],
+      "weaknesses": [
+        "Complete absence of required programming skills (Python, Scala, SQL).",
+        "No experience or knowledge of Big Data frameworks (e.g., Apache Spark).",
+        "No experience with cloud infrastructure (AWS, Azure, GCP).",
+        "No familiarity with data pipeline orchestration tools (e.g., Airflow) or version control (Git).",
+        "Educational background and stated career interest (Human Resources) are fundamentally misaligned with the Data Engineer role.",
+        "All listed technical skills and certifications are irrelevant to the position."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is fundamentally unsuitable for the Data Engineer position. Their profile, including education, skills, experience, and stated career interests, is aligned with roles in Human Resources, Marketing, or possibly Industrial Design, but shows no overlap with the requirements of data engineering. There is no evidence of the foundational technical skills required to even be considered for an entry-level data role."
+    }
+  },
+  {
+    "cv_code": "CV 10",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate has no professional work experience. Their experience is limited to academic projects and extensive organizational roles. The projects listed ('CreateWebGIS', 'International Poster', 'Seda' application) are focused on data analysis, data visualization, and basic web application development using tools like RStudio, QGIS, and XAMPP. None of these projects demonstrate experience in building, optimizing, or maintaining ETL/ELT data pipelines, which is the core responsibility of the Data Engineer role.",
+      "skills_analysis": "There is a significant mismatch between the candidate's skills and the job's technical requirements. The CV lists skills in data analysis (RStudio, SPSS, Minitab) and visualization (Tableau, QGIS), which are more suited for a Data Analyst. Crucial Data Engineer skills are completely absent: there is no mention of Python/Scala for data engineering, Advanced SQL, big data frameworks like Apache Spark, cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), or version control (Git).",
+      "education_analysis": "The candidate is currently an undergraduate student in their 5th semester, pursuing a Bachelor's Degree in Statistics. While the field of study is relevant, they have not yet completed their degree, which is a minimum requirement ('Sarjana (S1)').",
+      "certifications_analysis": "The candidate does not list any professional certifications in Data Engineering or related fields.",
+      "soft_skills_analysis": "The candidate's extensive involvement in various organizational and committee roles suggests strong soft skills, including teamwork, communication, responsibility, and initiative. This is a positive attribute but does not compensate for the lack of technical qualifications.",
+      "strengths": [
+        "Quantitative educational background (Statistics).",
+        "Demonstrated soft skills through extensive organizational experience.",
+        "Familiarity with data analysis and visualization tools like RStudio and Tableau."
+      ],
+      "weaknesses": [
+        "Complete lack of professional experience in a data-related role.",
+        "Currently a student and does not meet the minimum education requirement of a completed Bachelor's degree.",
+        "Missing almost all core technical skills required for a Data Engineer (e.g., Python/Scala, Advanced SQL, Spark, Airflow, Cloud platforms, Git).",
+        "Profile and projects are aligned with Data Analysis, not Data Engineering.",
+        "No demonstrated experience with data pipeline development, data modeling, or database management at scale."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a second-year university student whose profile is strongly oriented towards data analysis, not data engineering. They lack the fundamental technical skills, educational qualifications (a completed degree), and relevant project experience required for this role. The gap between their current skill set and the job requirements is too significant. They might be a potential candidate for a future Data Analyst internship, but they are not a fit for the Data Engineer position as described."
+    }
+  },
+  {
+    "cv_code": "CV 11",
+    "evaluation": {
+      "score": 10,
+      "experience_analysis": "The candidate's experience as an English Tutor, Team Leader in an educational program, and various roles in student associations is entirely unrelated to the field of data engineering. There is no experience in designing data pipelines, managing databases, or working with big data systems.",
+      "skills_analysis": "There is a complete absence of the required technical skills. The CV does not list proficiency in Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS/Azure/GCP), orchestration tools like Airflow, or version control with Git. The skills listed are focused on teaching and general soft skills, which are not sufficient for this technical role.",
+      "education_analysis": "The candidate is pursuing a Bachelor of English Language Education. This does not meet the job requirement for a degree in Computer Science, Information Engineering, Statistics, or a related quantitative field. The educational background is not aligned with the technical demands of a Data Engineer.",
+      "certifications_analysis": "The candidate does not list any professional certifications, particularly none related to data engineering, cloud platforms, or data technologies.",
+      "soft_skills_analysis": "The candidate demonstrates strong soft skills such as leadership, communication, and team collaboration through their extensive involvement in student organizations and teaching programs. While valuable, these skills cannot compensate for the lack of fundamental technical qualifications.",
+      "strengths": [
+        "Demonstrated leadership and organizational skills",
+        "Strong communication and teamwork abilities"
+      ],
+      "weaknesses": [
+        "Complete lack of required technical skills (Python, SQL, Spark, Cloud, etc.)",
+        "Educational background is in a non-technical and unrelated field",
+        "No relevant work experience in data engineering or any IT role",
+        "Fails to meet any of the core technical requirements for the position"
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their CV is tailored for a career in education and demonstrates no exposure to or interest in the required technical domains such as programming, database management, or big data. There is a complete mismatch between the candidate's profile and the job requirements."
+    }
+  },
+  {
+    "cv_code": "CV 12",
+    "evaluation": {
+      "score": 35,
+      "experience_analysis": "The candidate has no professional work experience in Data Engineering. The roles listed are as a Teaching Assistant, which involved mentoring, teaching basic programming (PHP, R), and performing simple statistical analysis. These experiences do not align with the core responsibilities of a Data Engineer, such as designing ETL/ELT pipelines, managing data architecture, or working with big data systems.",
+      "skills_analysis": "There are critical gaps in the candidate's technical skills. While Python is listed, there is no mention of Advanced SQL, which is a core requirement. Furthermore, the CV shows no experience with essential Data Engineering technologies specified in the job description, including Apache Spark, cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), or any relational/NoSQL databases. The skills demonstrated (RStudio, statistical analysis, machine learning models) are more suited for a Data Analyst or Data Scientist role.",
+      "education_analysis": "The candidate is a current student pursuing a Bachelor's degree in Statistics with a concentration in Data Science. This educational background meets the minimum requirement of the role. The projects mentioned (Medium articles on KNN, Market Basket Analysis) confirm a focus on data analysis and machine learning, not data infrastructure and engineering.",
+      "certifications_analysis": "No professional certifications are listed on the CV. This was a preferred, not a mandatory, qualification.",
+      "soft_skills_analysis": "The candidate demonstrates strong soft skills through extensive involvement in student organizations and teaching assistant roles. Skills like coordination, communication, and teamwork are evident. However, these cannot compensate for the significant lack of required technical expertise.",
+      "strengths": [
+        "Relevant educational background in Statistics and Data Science.",
+        "Familiarity with Python and data analysis concepts.",
+        "Demonstrated initiative and mentoring skills through teaching assistant roles."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with core Data Engineering technologies: Advanced SQL, Apache Spark, Cloud platforms, and orchestration tools.",
+        "No demonstrated experience with relational (PostgreSQL, MySQL) or NoSQL databases.",
+        "No mention of version control systems like Git.",
+        "Experience is purely academic and organizational, with no professional industry exposure.",
+        "Profile is heavily skewed towards Data Science/Analysis, not Data Engineering."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a promising student with a clear interest in the data field, but their profile is entirely misaligned with the Data Engineer role. They lack nearly all of the fundamental technical skills required, including SQL, database management, cloud infrastructure, and big data frameworks. The gap between their current capabilities and the job requirements is too significant. They might be a suitable candidate for an entry-level Data Analyst internship, but not for this Data Engineer position."
+    }
+  },
+  {
+    "cv_code": "CV 13",
+    "evaluation": {
+      "score": 45,
+      "experience_analysis": "The candidate's experience is primarily in data analysis, data visualization, and academic assistance (teaching assistant). Roles at BPS and BAPPEDA focused on data processing for statistical publications and creating infographics, which is more aligned with a Data Analyst profile. The most relevant experience is as a Teaching Assistant for Databases, which provided foundational knowledge of SQL, relational concepts, and query optimization, but this is in an academic context, not a production environment. There is no practical experience in designing, building, or maintaining the core responsibilities of a Data Engineer, such as ETL/ELT pipelines or managing data architecture.",
+      "skills_analysis": "The candidate demonstrates skills in Python and R for data analysis and visualization, and has a foundational understanding of SQL. However, there are significant gaps in the core technical requirements for a Data Engineer. There is no mention of experience with Big Data frameworks like Apache Spark, cloud platforms (AWS, GCP, Azure), or workflow orchestration tools (Apache Airflow). Furthermore, skills in NoSQL databases and version control (Git) are not listed, which are critical for this role.",
+      "education_analysis": "The candidate is a Statistics student ('Mahasiswa Statistika'), which aligns with the educational requirement for a degree in a quantitative field.",
+      "certifications_analysis": "The listed certifications (Copywriting, Digital Marketing, ML/AI for Beginners, Data Visualization) are not aligned with a Data Engineering specialization. They reinforce the candidate's profile as a Data Analyst or Visualizer, rather than an engineer. The preferred professional data engineering certifications are absent.",
+      "soft_skills_analysis": "The experience as a teaching assistant and creating content for public consumption (infographics, webinars) suggests good communication skills and the ability to explain concepts. The focus on data visualization and analysis implies a degree of attention to detail. These are positive indicators for the required soft skills.",
+      "strengths": [
+        "Relevant educational background in Statistics.",
+        "Foundational knowledge of relational databases and SQL from the teaching assistant role.",
+        "Strong skills in data analysis and visualization, which can be helpful for collaborating with analytics teams."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with Big Data technologies like Apache Spark.",
+        "No demonstrated experience with any cloud platform (AWS, Azure, GCP).",
+        "No experience with workflow orchestration tools such as Apache Airflow.",
+        "Lacks practical experience in building and maintaining ETL/ELT pipelines.",
+        "No mention of version control systems like Git.",
+        "Experience is entirely academic or analytical, with no exposure to a production engineering environment."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate has a profile that is strongly aligned with a Junior Data Analyst or Business Intelligence role, with solid experience in data processing, analysis, and visualization. However, they do not meet the fundamental technical requirements for the Data Engineer position. The absence of critical skills such as Apache Spark, cloud infrastructure, and workflow orchestration tools makes them unsuitable for this specific role. The gap between their current skill set and the job requirements is too significant to consider them a viable candidate at this time."
+    }
+  },
+  {
+    "cv_code": "CV 14",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate lists a single work experience as a 'Data Analyst' for one month (Feb 2025 - Mar 2025). This experience is in the future, extremely short, and in a different field (Data Analysis vs. Data Engineering). Therefore, the candidate has effectively zero relevant work experience for this role.",
+      "skills_analysis": "There is a significant and critical gap between the candidate's skills and the job requirements. The CV lists basic data analysis skills like 'Data Visualization', 'Microsoft Excel', and 'Data Analysis'. It completely lacks any of the core technical requirements for a Data Engineer, such as Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS/GCP/Azure), orchestration tools (Airflow), or version control (Git). The listed skills are for an entry-level analyst, not an engineer.",
+      "education_analysis": "The candidate is currently an undergraduate student pursuing a Bachelor's degree in Statistics at Universitas Islam Indonesia, with an expected graduation in April 2026. While Statistics is a relevant quantitative field, they do not yet hold the required S1 degree.",
+      "certifications_analysis": "A 'Data visualization' certification is listed, but the dates (Feb 2025 - Feb 2026) indicate it is a future plan, not a completed credential. This does not meet the preferred qualification for a professional Data Engineering certification.",
+      "soft_skills_analysis": "The candidate's organizational and volunteer experience suggests the development of soft skills like teamwork, leadership, and coordination. The CV also lists 'Analytical Skills' and 'Presentation Skills', which align with the job's behavioral competencies. This is the candidate's strongest area.",
+      "strengths": [
+        "Pursuing a degree in a relevant quantitative field (Statistics).",
+        "Demonstrates soft skills like teamwork and leadership through organizational involvement."
+      ],
+      "weaknesses": [
+        "Complete lack of required technical skills for a Data Engineer (e.g., Python, SQL, Spark, Cloud, Airflow).",
+        "No relevant work experience in data engineering or a related technical field.",
+        "CV is tailored for a Data Analyst role, not a Data Engineer.",
+        "Currently a student, two years away from graduation.",
+        "Unusual future dates for work experience and certification, indicating a lack of professional experience."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a statistics student whose profile is oriented towards data analysis, not data engineering. There is a complete mismatch in technical skills and experience. The CV lacks any evidence of proficiency in programming, database management, big data technologies, or cloud infrastructure, which are all fundamental requirements for the Data Engineer role. While the candidate has a relevant educational background and good soft skills, the technical gap is far too wide. This profile might be suitable for a future Data Analyst internship, but it does not meet the minimum qualifications for the current Data Engineer position."
+    }
+  },
+  {
+    "cv_code": "CV 15",
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  {
+    "cv_code": "CV 16",
+    "evaluation": {
+      "score": 45,
+      "experience_analysis": "The candidate's experience is entirely in Data Analysis and Business Intelligence, focusing on exploratory data analysis (EDA), data cleaning, and creating reports/dashboards. There is no demonstrated experience in designing, building, or maintaining ETL/ELT pipelines, managing data architecture, or workflow orchestration, which are the core responsibilities of the Data Engineer role.",
+      "skills_analysis": "There is a significant gap between the required technical skills and those presented in the CV. The candidate does not mention proficiency in the required programming languages (Python, Scala, Advanced SQL), Big Data frameworks (Apache Spark), cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), or version control (Git). The skills listed (RStudio, SPSS, Tableau, Power BI) are strongly aligned with a Data Analyst or Statistician role, not a Data Engineer.",
+      "education_analysis": "The candidate is currently pursuing a Bachelor's degree in Statistics (S.Stat), which aligns with the educational requirements for the position.",
+      "certifications_analysis": "The listed certifications are primarily for participation in lectures or classes and one for data visualization. The candidate does not hold any of the preferred professional Data Engineering certifications from cloud providers or other relevant bodies.",
+      "soft_skills_analysis": "The candidate's publications and project descriptions suggest strong analytical and problem-solving abilities. Involvement in academic organizations indicates potential for teamwork and coordination. However, the 'Limited Working' proficiency in English might be a concern for communication in a diverse team.",
+      "strengths": [
+        "Strong educational background in Statistics.",
+        "Hands-on experience in data analysis, data cleaning, and visualization.",
+        "Demonstrated analytical skills through academic publications and projects."
+      ],
+      "weaknesses": [
+        "Complete lack of experience in core Data Engineering tasks (e.g., ETL/ELT pipeline development, data modeling).",
+        "Missing proficiency in nearly all required technical skills: Python/Scala, Advanced SQL, Apache Spark, Cloud platforms, and Git.",
+        "Experience and skills are tailored for a Data Analyst role, not a Data Engineer.",
+        "No experience with relational or NoSQL databases as required.",
+        "Limited working proficiency in English."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "This candidate has a profile well-suited for a junior Data Analyst or BI Analyst position. However, they do not meet the fundamental requirements for the Data Engineer role. The absence of experience and skills in pipeline development, big data technologies, cloud infrastructure, and essential programming languages like Python and SQL makes them unsuitable for this specific position. The CV is focused on deriving insights from data, rather than building and maintaining the systems that manage data flow and storage."
+    }
+  },
+  {
+    "cv_code": "CV 17",
+    "evaluation": {
+      "score": 35,
+      "experience_analysis": "The candidate is a fresh graduate with no professional or project-based experience in Data Engineering. All listed experiences are academic or organizational (teaching assistant, event committee head), which have helped develop soft skills but provide no exposure to building ETL/ELT pipelines, managing data infrastructure, or working with large-scale data systems.",
+      "skills_analysis": "The candidate's technical skills are heavily oriented towards Data Analysis and Statistics (R, SPSS, Tableau, Power BI, statistical modeling). While they list Python and SQL, there is no evidence of the advanced proficiency required. There is a significant and critical gap in core Data Engineering technologies. The CV shows a complete lack of experience with Big Data frameworks (Apache Spark), Cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), version control (Git), and NoSQL databases.",
+      "education_analysis": "The candidate holds a Bachelor's degree in Statistics from Universitas Islam Indonesia with an excellent GPA (3.81). This educational background meets the job requirement for a degree in a quantitative field.",
+      "certifications_analysis": "No professional certifications in Data Engineering, Cloud, or related fields are mentioned on the CV.",
+      "soft_skills_analysis": "The candidate demonstrates strong soft skills, including leadership, project management, communication, and teamwork, through extensive involvement in university organizations and committees. Their experience as a committee head and public speaking engagement are notable.",
+      "strengths": [
+        "Strong academic background in a relevant quantitative field (Statistics) with a high GPA.",
+        "Demonstrated analytical and problem-solving skills through winning a national essay competition.",
+        "Possesses foundational skills in Python and SQL.",
+        "Excellent soft skills, particularly in leadership, communication, and project management."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with essential Data Engineering technologies such as Apache Spark, cloud platforms (AWS/GCP/Azure), and orchestration tools (Airflow).",
+        "No practical experience in designing, building, or maintaining ETL/ELT data pipelines.",
+        "No mention of version control systems like Git, which is a standard in software development.",
+        "Profile and projects (e.g., CNN for image detection) are strongly aligned with Data Science/Analysis, not Data Engineering.",
+        "No professional work experience."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a promising fresh graduate with a strong analytical mind and excellent soft skills. However, their profile is a clear mismatch for the Data Engineer position. Their skillset and interests are firmly in the domain of Data Analysis and Data Science. They lack nearly all of the core technical competencies required for this role, including experience with big data processing, cloud services, and pipeline orchestration. They would require extensive, fundamental training to be considered for a Data Engineering path. They might be a better fit for a Junior Data Analyst or Junior Data Scientist role."
+    }
+  },
+  {
+    "cv_code": "CV 18",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate's experience is entirely academic and extracurricular, consisting of teaching assistant roles and participation in student organizations. While the teaching assistant positions in 'Exploratory Data Analysis' and 'Applied Regression Analysis' are relevant to data, they focus on statistical analysis and visualization, which are more aligned with a Data Analyst role. There is no practical or professional experience in designing, building, or maintaining data pipelines, ETL/ELT processes, or data architecture, which are the core responsibilities of a Data Engineer.",
+      "skills_analysis": "The candidate's technical skills are heavily skewed towards statistical analysis and visualization (RStudio, SPSS, Tableau). While Python is mentioned, there is no evidence of its application in a data engineering context (e.g., scripting for ETL, working with APIs). Crucially, there is a complete absence of core Data Engineering technologies required by the job description, including Advanced SQL, Apache Spark, cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), and version control (Git). The mention of XAMPP indicates only very basic exposure to databases (MySQL) in a local development setting.",
+      "education_analysis": "The candidate is currently an undergraduate student in Statistics at Universitas Islam Indonesia, with an expected graduation in 2026. This does not meet the minimum requirement of a completed Bachelor's degree (Sarjana - S1). While the field of study is relevant, the candidate is not yet qualified for a full-time position requiring a degree.",
+      "certifications_analysis": "The candidate has not listed any professional certifications in Data Engineering or related cloud technologies.",
+      "soft_skills_analysis": "The CV lists several relevant soft skills such as 'Data Analysis', 'Critical Thinking', and 'Effective Communication'. The experience as a teaching assistant and involvement in student organizations suggests a good foundation in teamwork, leadership, and communication. These are positive attributes but cannot compensate for the significant technical skill gap.",
+      "strengths": [
+        "Strong quantitative and statistical background as a Statistics student.",
+        "Familiarity with data analysis and visualization tools like RStudio and Tableau.",
+        "Demonstrated initiative and soft skills through teaching assistant and organizational roles."
+      ],
+      "weaknesses": [
+        "Does not meet the minimum education requirement (still a student).",
+        "Complete lack of experience in core data engineering technologies (Advanced SQL, Spark, Cloud, Airflow, Git).",
+        "No professional experience in building or managing data pipelines or infrastructure.",
+        "Skills and experience are aligned with a Data Analyst profile, not a Data Engineer.",
+        "No professional work experience."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a current undergraduate student with a profile suitable for a Data Analyst or Statistics internship. There is a fundamental mismatch with the Data Engineer role, as they lack nearly all of the required technical skills, professional experience, and the minimum educational qualification. The CV shows no exposure to data pipeline development, big data frameworks, cloud infrastructure, or advanced database management. While the candidate shows promise in the broader data field, they are not a viable candidate for this specific position at this time."
+    }
+  },
+  {
+    "cv_code": "CV 19",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate's experience is entirely unrelated to the core responsibilities of a Data Engineer. Roles such as 'Asisten Praktikum' (Teaching Assistant), event committee member, and marketing staff focus on statistical analysis (using R), event management, and content creation. There is no demonstrated experience in designing, building, or maintaining ETL/ELT pipelines, data modeling, or managing data infrastructure.",
+      "skills_analysis": "There is a significant and critical gap between the candidate's skills and the job's technical requirements. The CV lists skills relevant to a Data Analyst (R Studio, SPSS, Tableau, Power BI, data visualization, forecasting) but lacks every essential Data Engineering skill. There is no mention of Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), or databases (PostgreSQL, MySQL, NoSQL). Git is also not mentioned.",
+      "education_analysis": "The candidate is currently pursuing a Bachelor's degree in Statistics, which aligns with the requirement for a degree in a quantitative field. However, they are still an active student (2022-Present) and have not yet completed the required Sarjana (S1) degree.",
+      "certifications_analysis": "The candidate does not list any professional certifications in Data Engineering or related fields.",
+      "soft_skills_analysis": "The candidate demonstrates strong soft skills such as leadership, problem-solving, and project management through extensive involvement in organizational and committee roles. These are valuable but cannot compensate for the lack of fundamental technical qualifications.",
+      "strengths": [
+        "Quantitative educational background in Statistics.",
+        "Familiarity with data analysis and visualization tools like R, Tableau, and Power BI.",
+        "Strong evidence of soft skills through extracurricular activities."
+      ],
+      "weaknesses": [
+        "Complete lack of experience in data engineering roles and responsibilities.",
+        "Missing all core technical skills required for the position (Python/Scala, Advanced SQL, Spark, Cloud, Airflow, Git, Databases).",
+        "Experience is heavily skewed towards data analysis, marketing, and event management, not data infrastructure.",
+        "Has not yet completed the required Bachelor's degree."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate's profile is a clear mismatch for the Data Engineer position. They are a Statistics student with a skill set and experience aligned with a junior Data Analyst or Marketing Analyst role. They lack the foundational programming, database, big data, and cloud computing skills that are essential for this position. The gap between their current profile and the job requirements is too substantial to consider them for this role."
+    }
+  },
+  {
+    "cv_code": "CV 2",
+    "evaluation": {
+      "score": 10,
+      "experience_analysis": "The candidate's experience is entirely in non-technical roles such as Cashier, Copywriter, and Social Media Admin. There is no experience related to data engineering, including designing ETL/ELT pipelines, data architecture, or managing data infrastructure. The roles are focused on content creation and social media management, which are completely irrelevant to the responsibilities of a Data Engineer.",
+      "skills_analysis": "There is a complete absence of the required technical skills. The CV does not mention Python, Scala, SQL, Apache Spark, any database systems (relational or NoSQL), cloud platforms (AWS, Azure, GCP), orchestration tools (Airflow), or version control (Git). The skills listed, such as 'Copywriting & Content Creation' and 'Social Media Management', are not applicable to this technical role.",
+      "education_analysis": "The candidate is currently an undergraduate student in Accounting. This field is not aligned with the job requirement for a degree in Computer Science, Information Technology, Statistics, or a related quantitative field. The candidate has not yet graduated.",
+      "certifications_analysis": "No professional certifications in Data Engineering or any related technical field are mentioned in the CV.",
+      "soft_skills_analysis": "The candidate lists several relevant soft skills such as being responsible, able to work under pressure, adaptable, and a team player. While these are positive attributes, they cannot compensate for the profound lack of technical qualifications.",
+      "strengths": [
+        "Demonstrates soft skills like teamwork and adaptability."
+      ],
+      "weaknesses": [
+        "Complete lack of required technical skills (Python, SQL, Spark, Cloud, etc.).",
+        "Work experience is entirely irrelevant to the Data Engineer role.",
+        "Educational background in Accounting does not meet the job requirements.",
+        "No demonstrated experience or knowledge in data pipelines, databases, or big data systems.",
+        "Candidate is still a student and has not yet completed their degree."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their profile, experience, and skills are aligned with a marketing or social media role, not a technical engineering one. There is a complete mismatch between the candidate's qualifications and every single technical requirement of the job description."
+    }
+  },
+  {
+    "cv_code": "CV 3",
+    "evaluation": {
+      "score": 10,
+      "experience_analysis": "The candidate has no relevant experience in data engineering. The listed experiences in student organizations (Public Relations, Treasurer), campus committees, and entrepreneurship (dessert business) are entirely non-technical and do not align with the core responsibilities of designing ETL pipelines, managing data architecture, or optimizing data systems.",
+      "skills_analysis": "There is a complete absence of the required technical skills. The CV does not mention Python, Scala, SQL, Apache Spark, any database systems (relational or NoSQL), cloud platforms, orchestration tools, or Git. The listed skills (Desain, Excel, Microsoft Office, Google Office Suite) are basic productivity tools and are insufficient for a Data Engineer role.",
+      "education_analysis": "The candidate is currently pursuing a Bachelor's degree in Pharmacy (Farmasi S1). This field is not related to the required educational background of Computer Science, Information Engineering, Statistics, or other quantitative fields. This represents a fundamental mismatch with the job requirements.",
+      "certifications_analysis": "The candidate does not list any professional certifications, which is expected given their field of study and experience level. They do not meet any of the preferred qualifications.",
+      "soft_skills_analysis": "The candidate self-rates highly on soft skills such as communication, time management, and teamwork. Their involvement in various organizations supports the development of these competencies. However, the crucial analytical and technical problem-solving skills required for this role cannot be assessed from the CV.",
+      "strengths": [
+        "Demonstrates initiative through extracurricular and entrepreneurial activities.",
+        "Lists relevant soft skills like communication and teamwork."
+      ],
+      "weaknesses": [
+        "Complete lack of required technical skills (Python, SQL, Spark, Cloud, Databases, Git).",
+        "Educational background in Pharmacy is entirely unrelated to the Data Engineer role.",
+        "No relevant project or work experience in a technical or data-focused field.",
+        "CV is not tailored for a technical position."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their educational background is in Pharmacy, and they possess none of the essential technical skills or relevant experience required for the role. The profile is a complete mismatch with the job description."
+    }
+  },
+  {
+    "cv_code": "CV 4",
+    "evaluation": {
+      "score": 10,
+      "experience_analysis": "The candidate's work experience is exclusively in the field of Pharmacy, including internships and roles as a teaching assistant. There is no experience related to data engineering, such as building ETL/ELT pipelines, data modeling, or managing data infrastructure. The project coordination role demonstrates project management skills but in a non-technical context.",
+      "skills_analysis": "There is a complete and critical lack of the required technical skills. The CV lists Microsoft Excel, Word, and Canva as software skills. There is no mention of Python, Scala, SQL, Apache Spark, cloud platforms (AWS, Azure, GCP), orchestration tools like Airflow, or version control systems like Git. The technical skills listed are specific to pharmacy (e.g., 'Interpretasi Farmakope', 'Formulasi Sediaan') and are irrelevant to the Data Engineer role.",
+      "education_analysis": "The candidate is pursuing a Bachelor's degree in Pharmacy. This does not align with the job requirement for a degree in Computer Science, Information Technology, Statistics, or a related quantitative field. The educational background is entirely unrelated to data engineering.",
+      "certifications_analysis": "The candidate does not list any professional certifications, especially none related to data engineering, cloud computing, or data platforms.",
+      "soft_skills_analysis": "The candidate appears to possess strong soft skills. The profile mentions public speaking, participation in debates, and a role as a Project Officer Coordinator, which suggests good communication, project management, and leadership capabilities. This is the only area with some alignment to the job description.",
+      "strengths": [
+        "Strong academic performance (High GPA)",
+        "Demonstrated soft skills in communication, project management, and leadership",
+        "Proactive and involved in extracurricular activities and competitions"
+      ],
+      "weaknesses": [
+        "Complete absence of required programming skills (Python/Scala, Advanced SQL)",
+        "No experience with Big Data frameworks (e.g., Apache Spark)",
+        "No experience with cloud infrastructure (AWS, Azure, GCP)",
+        "Unrelated educational background (Pharmacy instead of CS, IT, or Statistics)",
+        "Work and project experience is entirely irrelevant to the data engineering domain",
+        "Lack of familiarity with essential development tools like Git and orchestration tools like Airflow"
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a high-achieving student in the field of Pharmacy with commendable soft skills. However, there is a fundamental and complete mismatch between their profile and the requirements for a Data Engineer position. They lack the necessary educational foundation, technical skills, and relevant experience in every key area specified in the job description. The profile is suited for a role in the pharmaceutical industry, not in data engineering."
+    }
+  },
+  {
+    "cv_code": "CV 5",
+    "evaluation": {
+      "score": 35,
+      "experience_analysis": "The candidate has very limited professional experience, consisting of a single one-month internship as a 'Data Support Intern'. The responsibilities described (data entry, cleaning, organizing, and dashboarding with Looker Studio) are more aligned with a Data Analyst or Business Intelligence role, not a Data Engineer. There is no mention of building or maintaining ETL/ELT pipelines, data modeling, or managing data architecture, which are core to the advertised position.",
+      "skills_analysis": "There is a significant gap between the candidate's skills and the technical requirements. The CV does not mention any of the core Data Engineering technologies required: Python/Scala, Advanced SQL, Apache Spark, relational/NoSQL databases, cloud platforms (AWS/Azure/GCP), orchestration tools (Airflow), or version control (Git). The only technical tool mentioned is Looker Studio, a data visualization tool. The profile lacks the fundamental programming and infrastructure skills needed for this role.",
+      "education_analysis": "The candidate's educational background, a Bachelor of Statistics with a concentration in Data Science, is relevant and meets the minimum educational requirement. The GPA is solid. However, the coursework and projects mentioned seem to focus on statistical analysis and machine learning applications rather than data engineering principles.",
+      "certifications_analysis": "The candidate has a 'Certified International Specialist in Data Visualization (CISDV)'. While this shows initiative, it is a certification for data analysis and visualization, not data engineering. It does not align with the preferred qualifications like Google Professional Data Engineer or similar.",
+      "soft_skills_analysis": "The candidate demonstrates strong soft skills through extensive involvement in student organizations and committees. Roles like Secretary and Event Division Coordinator suggest good communication, organization, leadership, and collaboration skills, which are valuable. This is the strongest part of the CV.",
+      "strengths": [
+        "Relevant educational background in Statistics and Data Science.",
+        "Strong evidence of soft skills like communication, leadership, and organization from extracurricular activities.",
+        "Has some initial exposure to data handling (cleaning and visualization) in a professional setting."
+      ],
+      "weaknesses": [
+        "Complete lack of demonstrated skills in core data engineering technologies (Python, SQL, Spark, Cloud, Airflow, Git).",
+        "Professional experience is extremely limited (1 month) and not relevant to data engineering tasks.",
+        "No experience with database design, data modeling, or pipeline development.",
+        "CV is tailored for a Data Analyst role, not a Data Engineer."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is a current student with a profile that is strongly oriented towards Data Analysis or Business Intelligence, not Data Engineering. They lack virtually all of the essential technical skills and experience required for this role, including programming, big data frameworks, cloud services, and database management. While they have a relevant degree and good soft skills, the technical gap is too significant to consider them for a Data Engineer position at this time. They might be a suitable candidate for a Data Analyst internship."
+    }
+  },
+  {
+    "cv_code": "CV 6",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate's experience is primarily in data analysis, statistics, and organizational roles within a university setting. The internship at the 'Dinas Komunikasi dan Informatika' involved contributing to sectoral statistics, which is analytical in nature. The role as a 'Asisten Praktikum Sistem Informasi Geografi' focuses on spatial data analysis using QGIS. There is no demonstrated experience in designing, building, or maintaining ETL/ELT pipelines, data modeling, or managing data architecture, which are core responsibilities of the Data Engineer role.",
+      "skills_analysis": "There is a significant gap between the candidate's skills and the technical requirements. The CV lists skills like RStudio, QGIS, and Tableau, which are relevant for data analysis and visualization, but not for data engineering. Key required skills such as Python/Scala, Advanced SQL, Apache Spark, relational/NoSQL databases, cloud platforms (AWS/Azure/GCP), and orchestration tools (Airflow) are completely absent. There is also no mention of version control systems like Git.",
+      "education_analysis": "The candidate is currently a student pursuing a Bachelor's degree in Statistics ('Program Studi Statistika'). While this is a relevant quantitative field as per the job description, they have not yet graduated. The concentration in Spatial Data Analysis is interesting but not directly aligned with core data engineering tasks.",
+      "certifications_analysis": "The candidate holds a 'Certified International Specialist Data Visualization (CISDV)'. This certification is in a related data field but does not meet the preferred qualification for a professional Data Engineering certification (e.g., Google, Azure, Databricks).",
+      "soft_skills_analysis": "The candidate's extensive involvement in various university organizations (e.g., 'UII Mengabdi', 'Lembaga Eksekutif Mahasiswa') suggests strong communication, collaboration, and organizational skills. The background in statistics implies an analytical mindset and attention to detail.",
+      "strengths": [
+        "Relevant educational background in Statistics.",
+        "Experience with data analysis and visualization tools (RStudio, QGIS, Tableau).",
+        "Demonstrated soft skills through active participation in university organizations.",
+        "Analytical mindset from academic focus."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with core data engineering programming languages (Python, Scala) and Advanced SQL.",
+        "No experience with Big Data frameworks like Apache Spark.",
+        "No experience with cloud infrastructure (AWS, Azure, GCP).",
+        "No familiarity with data pipeline orchestration tools (e.g., Apache Airflow).",
+        "No mention of experience with relational or NoSQL databases.",
+        "No experience with version control (Git).",
+        "Experience is entirely focused on data analysis, not engineering.",
+        "Candidate is still a student and has not yet graduated."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate's profile is strongly aligned with an entry-level Data Analyst or Statistician role, not a Data Engineer. They lack nearly all of the fundamental technical skills and hands-on experience required for this position, including programming in Python/Scala, SQL, big data processing, cloud platforms, and pipeline orchestration. While they have a relevant educational background and good soft skills, the technical gap is too significant to consider them for this role without extensive retraining."
+    }
+  },
+  {
+    "cv_code": "CV 7",
+    "evaluation": {
+      "score": 45,
+      "experience_analysis": "The candidate is a final-year student with no professional or internship experience in a data engineering role. The work experience listed is as a Co-Manager for a university marketing team, which involves team management, social media strategy, and basic quantitative analysis using Excel. This experience is not relevant to the core responsibilities of a Data Engineer, such as designing ETL/ELT pipelines, managing data architecture, or optimizing big data systems.",
+      "skills_analysis": "The candidate possesses foundational skills in Python (with data analysis libraries like pandas and numpy) and SQL/NoSQL, which are relevant. However, there are significant and critical gaps in the required technical stack. There is no mention of experience with big data frameworks like Apache Spark, cloud platforms (AWS, Azure, GCP), or workflow orchestration tools (Apache Airflow). Furthermore, version control (Git) is not listed. The current skill set is strongly aligned with an entry-level Data Analyst, not a Data Engineer.",
+      "education_analysis": "The candidate's educational background in Statistics from Universitas Islam Indonesia with a high GPA (3.69/4.00) meets the academic requirement for a degree in a quantitative field. This indicates a strong aptitude for analytical and mathematical concepts.",
+      "certifications_analysis": "No professional certifications in Data Engineering or related cloud technologies are mentioned on the CV. This is not unexpected for a student, but it means they do not meet any of the preferred qualifications.",
+      "soft_skills_analysis": "The CV lists relevant soft skills like 'Analytical Thinking' and 'Leadership'. The experience as a Co-Manager suggests some practical application of leadership, collaboration, and communication. However, the ability to communicate complex data engineering concepts to non-technical stakeholders is untested.",
+      "strengths": [
+        "Strong academic background in a relevant quantitative field (Statistics) with a high GPA.",
+        "Foundational knowledge of Python and SQL.",
+        "Demonstrated leadership and analytical initiative in a university organization."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with essential data engineering technologies such as Apache Spark, cloud platforms (AWS, GCP, Azure), and orchestration tools (Airflow).",
+        "No professional or internship experience in a data-focused role.",
+        "Stated career interests (Data Analyst, Finance Analyst, Business Analyst) do not include Data Engineer, indicating a potential misalignment with the role and career path.",
+        "No mention of version control systems like Git.",
+        "Experience is limited to basic data analysis, not building or maintaining data infrastructure."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate has a solid academic foundation in statistics but lacks the fundamental technical skills and practical experience required for a Data Engineer position. The profile is significantly misaligned with the job description, missing core competencies in big data processing, cloud infrastructure, and pipeline orchestration. Their stated career interests and skill set are a much better match for an entry-level Data Analyst or Business Analyst role. They are not a suitable candidate for this Data Engineer position."
+    }
+  },
+  {
+    "cv_code": "CV 8",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate's work experience consists of a 3-month internship as a Data Administration Staff. The responsibilities listed, such as data entry, internal reporting, and organizing documentation, are purely administrative and do not align with the core data engineering tasks of designing ETL/ELT pipelines, data modeling, or managing big data systems. The organizational experience, while demonstrating leadership, is not relevant to the technical aspects of this role.",
+      "skills_analysis": "There is a significant and critical gap in technical skills. The job requires proficiency in Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS/GCP/Azure), and orchestration tools like Airflow. The candidate's CV lists only administrative skills (HR Administration, Data Entry) and basic productivity tools (Microsoft Office, Google Workspace, Canva). None of the required technical skills are present.",
+      "education_analysis": "The job requires a Bachelor's degree in a quantitative field such as Computer Science, IT, or Statistics. The candidate is a final-year student in Management with a concentration in Human Resources. This educational background does not provide the necessary foundational knowledge in programming, algorithms, database systems, and distributed computing required for a Data Engineer.",
+      "certifications_analysis": "The candidate does not list any professional certifications. While certifications are a 'preferred' qualification, they would be essential for a candidate looking to bridge the gap from a non-technical background, which is not the case here.",
+      "soft_skills_analysis": "The candidate's profile and extensive organizational experience suggest strong soft skills, including being detail-oriented, responsible, and collaborative. These align with the behavioral competencies listed in the job description. This is the only area of alignment.",
+      "strengths": [
+        "Demonstrates responsibility and leadership through various organizational roles.",
+        "Possesses good soft skills like collaboration and attention to detail.",
+        "Has experience handling data, albeit in a basic, administrative context."
+      ],
+      "weaknesses": [
+        "Complete lack of required technical skills (Python, SQL, Spark, Cloud, Airflow, Git).",
+        "Educational background in Management/HR is not relevant to the technical requirements.",
+        "Work experience is administrative (data entry) and not in data engineering.",
+        "No familiarity with any of the core technologies and platforms for the role."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate is fundamentally not a fit for this technical Data Engineer position. There is a complete mismatch between their skills, education, and experience and the core requirements of the role. The profile is geared towards an HR or administrative position. They lack the foundational programming, database, and big data knowledge necessary to even be considered for an entry-level data engineering role."
+    }
+  },
+  {
+    "cv_code": "CV 9",
+    "evaluation": {
+      "score": 25,
+      "experience_analysis": "The candidate is a final-year university student with no professional experience in data engineering. The listed work experience as a 'Student Staff' and 'Teaching Assistant for Algorithm and Programming' is not directly related to building ETL/ELT pipelines, managing data architecture, or optimizing data systems as required by the job description.",
+      "skills_analysis": "There is a significant gap between the candidate's skills and the technical requirements. The role requires proficiency in Python/Scala, Advanced SQL, Apache Spark, cloud platforms (AWS/Azure/GCP), and orchestration tools like Airflow. The candidate's CV only lists skills in Rstudio, Excel, Tableau, and Power BI, which are tools for data analysis and visualization, not core data engineering. Essential skills such as SQL, Python, Spark, cloud services, and Git are completely absent.",
+      "education_analysis": "The candidate is pursuing a Bachelor's degree in Statistics, which fulfills the educational requirement for a degree in a quantitative field. The high GPA (3.79/4.00) indicates strong academic performance.",
+      "certifications_analysis": "The CV does not list any professional certifications in Data Engineering or related cloud technologies.",
+      "soft_skills_analysis": "The candidate lists 'adaptive, have high inisiative, and collaborative' as soft skills. Achievements in infographic and poster competitions suggest good data presentation and communication abilities. However, the self-assessed 'Beginner' level in English could be a potential barrier for communication in a technical team.",
+      "strengths": [
+        "Strong academic background in a relevant quantitative field (Statistics) with a high GPA.",
+        "Experience with data analysis and visualization tools (Rstudio, Tableau, Power BI).",
+        "Demonstrated analytical aptitude through academic projects and competitions."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with required programming languages (Python/Scala) and Advanced SQL.",
+        "No exposure to essential Big Data frameworks like Apache Spark.",
+        "No experience with cloud platforms (AWS, Azure, GCP) or database systems (Relational/NoSQL).",
+        "Missing foundational data engineering tools such as workflow orchestrators (e.g., Airflow) and version control (Git).",
+        "No professional experience in a data engineering or related software development role.",
+        "Beginner level of English may limit effective communication."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate's profile is strongly aligned with an entry-level Data Analyst or Statistician role, focusing on data analysis, statistical modeling, and visualization. However, they do not meet the fundamental technical requirements for the Data Engineer position. The absence of skills in Python/Scala, SQL, Spark, cloud infrastructure, and data pipelining tools makes them unsuitable for this role without significant retraining."
+    }
+  },
+  {
+    "cv_code": "CV 15",
+    "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'The document has no pages.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  {
+    "cv_code": "CV 20",
+    "evaluation": {
+      "score": 45,
+      "experience_analysis": "The candidate's professional experience is exclusively in Data Analyst and Teaching Assistant roles. While these roles involve data cleaning, preprocessing, and analysis, they lack the core responsibilities of a Data Engineer. There is no evidence of designing, building, or maintaining ETL/ELT pipelines, managing data architecture, or working in a production data infrastructure environment. The experience is focused on deriving insights from data, not on building the systems to manage and transport it.",
+      "skills_analysis": "The candidate possesses foundational skills in Python and SQL, which are relevant. They have experience with MySQL and Google BigQuery, meeting a part of the database requirement. However, there are significant and critical gaps. There is no mention of any Big Data framework like Apache Spark (a key requirement). There is also a complete lack of experience with workflow orchestration tools (e.g., Apache Airflow) and version control (Git). Cloud experience seems limited to using BigQuery as a tool, rather than managing cloud infrastructure (AWS, Azure, GCP). The listed Python libraries (Pandas, Scikit-learn) are for analysis and machine learning, not data engineering.",
+      "education_analysis": "The candidate holds a Bachelor's degree in Statistics, which aligns with the requirement for a degree in a quantitative field.",
+      "certifications_analysis": "The candidate has a certification in Data Visualization, which is not relevant to the Data Engineer role. They lack any of the preferred professional certifications in Data Engineering (Google, Azure, Databricks).",
+      "soft_skills_analysis": "The CV lists strong soft skills such as analytical thinking, problem-solving, and communication. Experience as a Teaching Assistant and presenting reports suggests an ability to explain concepts, which is a positive indicator.",
+      "strengths": [
+        "Solid educational background in a relevant quantitative field (Statistics).",
+        "Proficient in Python and SQL, which are essential foundational languages for a Data Engineer.",
+        "Hands-on experience with data cleaning and preprocessing.",
+        "Familiarity with a cloud data warehouse (Google BigQuery)."
+      ],
+      "weaknesses": [
+        "Complete lack of experience with Big Data processing frameworks like Apache Spark, which is a core requirement.",
+        "No demonstrated experience in designing or building ETL/ELT data pipelines.",
+        "No experience with workflow orchestration tools such as Apache Airflow or Prefect.",
+        "No mention of version control systems like Git.",
+        "Experience is heavily skewed towards data analysis and statistical modeling, not data engineering.",
+        "Lacks experience with broader cloud infrastructure (AWS, Azure, GCP) and preferred qualifications like Docker/Kubernetes."
+      ],
+      "recommendation": "Not Recommended",
+      "notes": "The candidate presents a strong profile for a junior Data Analyst or a junior Data Scientist role. However, they are a weak fit for the advertised Data Engineer position due to significant gaps in core technical competencies. The lack of experience with Apache Spark, workflow orchestration tools, and production-level pipeline development makes them unsuitable for a role that centers on these responsibilities. The candidate's skills are focused on analyzing data, not engineering the systems that handle it."
+    }
+  }
+]

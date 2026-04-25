@@ -1,0 +1,120 @@
+[
+  {
+    "cv_code": "CV 13",
+    "score": 65,
+    "recommendation": "Disarankan dengan Catatan",
+    "notes": "Kandidat memiliki profil yang sangat sesuai untuk peran Junior Data Analyst atau Business Intelligence, dengan pengalaman solid dalam pemrosesan, analisis, dan visualisasi data. Namun, kandidat tidak memenuhi persyaratan teknis dasar untuk posisi Data Engineer. Ketiadaan keahlian kritis seperti Apache Spark, infrastruktur cloud, dan alat orkestrasi workflow membuat kandidat tidak cocok untuk peran ini. Kesenjangan antara skill set saat ini dengan persyaratan pekerjaan terlalu signifikan untuk mempertimbangkan kandidat sebagai kandidat yang layak saat ini."
+  },
+  {
+    "cv_code": "CV 16",
+    "score": 65,
+    "recommendation": "Disarankan dengan Catatan",
+    "notes": "Kandidat ini memiliki profil yang sangat sesuai untuk posisi Data Analyst junior atau BI Analyst. Namun, kandidat tidak memenuhi persyaratan dasar untuk peran Data Engineer. Ketiadaan pengalaman dan keahlian dalam pengembangan pipeline, teknologi big data, infrastruktur cloud, dan bahasa pemrograman penting seperti Python dan SQL membuat kandidat tidak cocok untuk posisi ini. CV berfokus pada mendapatkan wawasan dari data, bukan membangun dan memelihara sistem yang mengelola aliran dan penyimpanan data."
+  },
+  {
+    "cv_code": "CV 20",
+    "score": 65,
+    "recommendation": "Disarankan dengan Catatan",
+    "notes": "Kandidat memiliki profil yang selaras dengan peran Business Intelligence atau Data Analyst. Namun, kandidat tidak memenuhi persyaratan teknis inti untuk posisi Data Engineer. Ketiadaan pengalaman dan keahlian dalam pengembangan pipeline ETL/ELT, teknologi big data, infrastruktur cloud, dan alat orkestrasi membuat kandidat tidak cocok untuk peran ini. CV berfokus pada analisis dan visualisasi data, bukan membangun dan memelihara infrastruktur data."
+  },
+  {
+    "cv_code": "CV 7",
+    "score": 60,
+    "recommendation": "Disarankan dengan Catatan",
+    "notes": "Kandidat memiliki fondasi akademis yang solid dalam statistika namun kurang keahlian teknis dasar dan pengalaman praktis yang diperlukan untuk posisi Data Engineer. Profil secara signifikan tidak selaras dengan deskripsi pekerjaan, kurang kompetensi inti dalam pemrosesan big data, infrastruktur cloud, dan orkestrasi pipeline. Minat karir dan skill set yang kandidat nyatakan lebih cocok untuk peran Data Analyst atau Business Analyst tingkat pemula. Kandidat bukan kandidat yang cocok untuk posisi Data Engineer ini."
+  },
+  {
+    "cv_code": "CV 12",
+    "score": 55,
+    "recommendation": "Pertimbangkan",
+    "notes": "Kandidat adalah mahasiswa yang menjanjikan dengan minat yang jelas di bidang data, namun profilnya sama sekali tidak sesuai untuk peran Data Engineer. Kandidat kurang di hampir semua keahlian teknis dasar yang diperlukan, termasuk SQL, manajemen database, infrastruktur cloud, dan framework big data. Kesenjangan antara kemampuan kandidat saat ini dengan persyaratan pekerjaan terlalu signifikan. Kandidat mungkin cocok untuk magang sebagai Data Analyst tingkat pemula, namun tidak untuk posisi Data Engineer."
+  },
+  {
+    "cv_code": "CV 17",
+    "score": 55,
+    "recommendation": "Pertimbangkan",
+    "notes": "Kandidat adalah lulusan baru yang menjanjikan dengan daya analitis yang kuat dan soft skills yang sangat baik. Namun, profil kandidat tidak cocok untuk posisi Data Engineer. Skill set dan minat kandidat kuat di domain Analisis Data dan Data Science. Kandidat kurang hampir semua kompetensi teknis inti yang diperlukan untuk peran ini, termasuk pengalaman dengan pemrosesan big data, layanan cloud, dan orkestrasi pipeline. Kandidat akan memerlukan pelatihan dasar yang ekstensif untuk dipertimbangkan untuk jalur Data Engineering. Kandidat mungkin lebih cocok untuk peran Junior Data Analyst atau Junior Data Scientist."
+  },
+  {
+    "cv_code": "CV 5",
+    "score": 50,
+    "recommendation": "Pertimbangkan",
+    "notes": "Kandidat adalah mahasiswa saat ini dengan profil yang sangat berorientasi pada Analisis Data atau Business Intelligence, bukan Data Engineering. Kandidat kurang hampir semua keahlian teknis penting dan pengalaman yang diperlukan untuk peran ini, termasuk pemrograman, framework big data, layanan cloud, dan manajemen database. Meskipun kandidat memiliki gelar yang relevan dan soft skills yang baik, kesenjangan teknis terlalu signifikan untuk mempertimbangkan kandidat untuk posisi Data Engineer saat ini. Kandidat mungkin cocok sebagai kandidat untuk magang Data Analyst."
+  },
+  {
+    "cv_code": "CV 6",
+    "score": 35,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Profil kandidat sangat selaras dengan peran Data Analyst atau Statistika tingkat pemula, bukan Data Engineer. Kandidat kurang hampir semua keahlian teknis dasar dan pengalaman praktis yang diperlukan untuk posisi ini, termasuk pemrograman dalam Python/Scala, SQL, pemrosesan big data, platform cloud, dan orkestrasi pipeline. Meskipun kandidat memiliki latar belakang pendidikan yang relevan dan soft skills yang baik, kesenjangan teknis terlalu signifikan untuk mempertimbangkan kandidat untuk peran ini tanpa pelatihan ulang yang ekstensif."
+  },
+  {
+    "cv_code": "CV 9",
+    "score": 35,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Profil kandidat sangat selaras dengan peran Data Analyst atau Statistika tingkat pemula, berfokus pada analisis data, pemodelan statistik, dan visualisasi. Namun, kandidat tidak memenuhi persyaratan teknis dasar untuk posisi Data Engineer. Ketiadaan keahlian dalam Python/Scala, SQL, Spark, infrastruktur cloud, dan alat pipelining data membuat kandidat tidak cocok untuk peran ini tanpa pelatihan ulang yang signifikan."
+  },
+  {
+    "cv_code": "CV 10",
+    "score": 30,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat masih merupakan mahasiswa universitas tahun kedua yang profilnya berorientasi pada analisis data, bukan data engineering. Kandidat kurang memiliki keahlian teknis dasar, kualifikasi pendidikan (gelar yang sudah selesai), dan pengalaman proyek yang relevan untuk peran ini. Kesenjangan antara skill set saat ini dengan persyaratan pekerjaan terlalu signifikan. Kandidat mungkin memiliki potensi untuk magang sebagai Data Analyst, namun tidak cocok untuk posisi Data Engineer seperti yang dijelaskan."
+  },
+  {
+    "cv_code": "CV 14",
+    "score": 30,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat adalah mahasiswa statistika yang profilnya berorientasi pada analisis data, bukan data engineering. Ada ketidakcocokan total dalam keahlian teknis dan pengalaman. CV tidak menunjukkan bukti keahlian dalam pemrograman, manajemen database, teknologi big data, atau infrastruktur cloud, yang semuanya adalah persyaratan dasar untuk peran Data Engineer. Meskipun kandidat memiliki latar belakang pendidikan yang relevan dan soft skills yang baik, kesenjangan teknis terlalu lebar. Profil ini mungkin cocok untuk magang Data Analyst di masa depan, namun tidak memenuhi kualifikasi minimum untuk posisi Data Engineer saat ini."
+  },
+  {
+    "cv_code": "CV 18",
+    "score": 30,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat adalah mahasiswa sarjana saat ini dengan profil yang cocok untuk magang Data Analyst atau Statistika. Ada ketidakcocokan dasar dengan peran Data Engineer, karena kandidat kurang di hampir semua keahlian teknis yang diperlukan, pengalaman profesional, dan kualifikasi pendidikan minimum. CV tidak menunjukkan paparan pada pengembangan pipeline data, framework big data, infrastruktur cloud, atau manajemen database tingkat lanjut. Meskipun kandidat menunjukkan janji di bidang data yang lebih luas, kandidat bukan kandidat yang layak untuk posisi ini saat ini."
+  },
+  {
+    "cv_code": "CV 19",
+    "score": 30,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Profil kandidat tidak cocok untuk posisi Data Engineer. Kandidat adalah mahasiswa Statistika dengan skill set dan pengalaman yang selaras dengan peran Data Analyst junior atau Marketing Analyst. Kandidat kurang keahlian pemrograman, database, big data, dan cloud computing yang menjadi fondasi dan penting untuk posisi ini. Kesenjangan antara profil kandidat saat ini dengan persyaratan pekerjaan terlalu substansial untuk mempertimbangkan kandidat untuk peran ini."
+  },
+  {
+    "cv_code": "CV 8",
+    "score": 15,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat pada dasarnya tidak cocok untuk posisi Data Engineer teknis. Ada ketidakcocokan total antara keahlian, pendidikan, dan pengalaman kandidat dengan persyaratan inti peran tersebut. Profil diarahkan untuk posisi HR atau administrasi. Kandidat kurang pengetahuan pemrograman, database, dan big data dasar yang diperlukan untuk dipertimbangkan bahkan untuk peran data engineering tingkat pemula."
+  },
+  {
+    "cv_code": "CV 1",
+    "score": 20,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat pada dasarnya tidak cocok untuk posisi Data Engineer. Profil pendidikan, keahlian, pengalaman, dan minat karir yang dinyatakan lebih sesuai untuk peran di Human Resources, Marketing, atau mungkin Industrial Design, namun tidak ada irisan dengan persyaratan data engineering. Tidak ada bukti keahlian teknis dasar yang diperlukan untuk dipertimbangkan untuk posisi di bidang data."
+  },
+  {
+    "cv_code": "CV 11",
+    "score": 20,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat pada dasarnya tidak memenuhi kualifikasi untuk posisi Data Engineer. CV kandidat disusun untuk karir di bidang pendidikan dan tidak menunjukkan paparan atau minat pada domain teknis yang diperlukan seperti pemrograman, manajemen database, atau big data. Ada ketidakcocokan total antara profil kandidat dengan persyaratan pekerjaan."
+  },
+  {
+    "cv_code": "CV 2",
+    "score": 20,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat pada dasarnya tidak memenuhi kualifikasi untuk posisi Data Engineer. Profil, pengalaman, dan keahlian kandidat selaras dengan peran pemasaran atau media sosial, bukan peran teknik. Ada ketidakcocokan total antara kualifikasi kandidat dengan setiap persyaratan teknis dari deskripsi pekerjaan."
+  },
+  {
+    "cv_code": "CV 3",
+    "score": 20,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat pada dasarnya tidak memenuhi kualifikasi untuk posisi Data Engineer. Latar belakang pendidikan kandidat adalah di bidang Farmasi, dan kandidat tidak memiliki keahlian teknis penting atau pengalaman relevan yang diperlukan untuk peran ini. Profil sama sekali tidak cocok dengan deskripsi pekerjaan."
+  },
+  {
+    "cv_code": "CV 4",
+    "score": 20,
+    "recommendation": "Tidak Disarankan",
+    "notes": "Kandidat adalah mahasiswa berprestasi tinggi di bidang Farmasi dengan soft skills yang patut ditiru. Namun, ada ketidakcocokan dasar dan total antara profil kandidat dengan persyaratan untuk posisi Data Engineer. Kandidat kurang pendidikan dasar, keahlian teknis, dan pengalaman relevan di setiap area kunci yang ditentukan dalam deskripsi pekerjaan. Profil ini cocok untuk peran di industri farmasi, bukan di data engineering."
+  },
+  {
+    "cv_code": "CV 15",
+    "error": "Dokumen tidak bisa diakses/private."
+  }
+]

@@ -74,3 +74,5 @@ reference-agent/results/*.html
 twitter-alhrkn/*.json
 
 tokens.json
+
+cv-review/*.pdf

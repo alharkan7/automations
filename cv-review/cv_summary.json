@@ -1,0 +1,124 @@
+[
+  {
+    "cv_code": "CV 13",
+    "score": 65,
+    "recommendation": "Recommended with Notes",
+    "notes": "The candidate has a profile that is strongly aligned with a Junior Data Analyst or Business Intelligence role, with solid experience in data processing, analysis, and visualization. However, they do not meet the fundamental technical requirements for the Data Engineer position. The absence of critical skills such as Apache Spark, cloud infrastructure, and workflow orchestration tools makes them unsuitable for this specific role. The gap between their current skill set and the job requirements is too significant to consider them a viable candidate at this time."
+  },
+  {
+    "cv_code": "CV 16",
+    "score": 65,
+    "recommendation": "Recommended with Notes",
+    "notes": "This candidate has a profile well-suited for a junior Data Analyst or BI Analyst position. However, they do not meet the fundamental requirements for the Data Engineer role. The absence of experience and skills in pipeline development, big data technologies, cloud infrastructure, and essential programming languages like Python and SQL makes them unsuitable for this specific position. The CV is focused on deriving insights from data, rather than building and maintaining the systems that manage data flow and storage."
+  },
+  {
+    "cv_code": "CV 20",
+    "score": 65,
+    "recommendation": "Recommended with Notes",
+    "notes": "The candidate presents a strong profile for a junior Data Analyst or a junior Data Scientist role. However, they are a weak fit for the advertised Data Engineer position due to significant gaps in core technical competencies. The lack of experience with Apache Spark, workflow orchestration tools, and production-level pipeline development makes them unsuitable for a role that centers on these responsibilities. The candidate's skills are focused on analyzing data, not engineering the systems that handle it."
+  },
+  {
+    "cv_code": "CV 7",
+    "score": 60,
+    "recommendation": "Recommended with Notes",
+    "notes": "The candidate has a solid academic foundation in statistics but lacks the fundamental technical skills and practical experience required for a Data Engineer position. The profile is significantly misaligned with the job description, missing core competencies in big data processing, cloud infrastructure, and pipeline orchestration. Their stated career interests and skill set are a much better match for an entry-level Data Analyst or Business Analyst role. They are not a suitable candidate for this Data Engineer position."
+  },
+  {
+    "cv_code": "CV 12",
+    "score": 55,
+    "recommendation": "Consider",
+    "notes": "The candidate is a promising student with a clear interest in the data field, but their profile is entirely misaligned with the Data Engineer role. They lack nearly all of the fundamental technical skills required, including SQL, database management, cloud infrastructure, and big data frameworks. The gap between their current capabilities and the job requirements is too significant. They might be a suitable candidate for an entry-level Data Analyst internship, but not for this Data Engineer position."
+  },
+  {
+    "cv_code": "CV 17",
+    "score": 55,
+    "recommendation": "Consider",
+    "notes": "The candidate is a promising fresh graduate with a strong analytical mind and excellent soft skills. However, their profile is a clear mismatch for the Data Engineer position. Their skillset and interests are firmly in the domain of Data Analysis and Data Science. They lack nearly all of the core technical competencies required for this role, including experience with big data processing, cloud services, and pipeline orchestration. They would require extensive, fundamental training to be considered for a Data Engineering path. They might be a better fit for a Junior Data Analyst or Junior Data Scientist role."
+  },
+  {
+    "cv_code": "CV 5",
+    "score": 50,
+    "recommendation": "Consider",
+    "notes": "The candidate is a current student with a profile that is strongly oriented towards Data Analysis or Business Intelligence, not Data Engineering. They lack virtually all of the essential technical skills and experience required for this role, including programming, big data frameworks, cloud services, and database management. While they have a relevant degree and good soft skills, the technical gap is too significant to consider them for a Data Engineer position at this time. They might be a suitable candidate for a Data Analyst internship."
+  },
+  {
+    "cv_code": "CV 6",
+    "score": 35,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate's profile is strongly aligned with an entry-level Data Analyst or Statistician role, not a Data Engineer. They lack nearly all of the fundamental technical skills and hands-on experience required for this position, including programming in Python/Scala, SQL, big data processing, cloud platforms, and pipeline orchestration. While they have a relevant educational background and good soft skills, the technical gap is too significant to consider them for this role without extensive retraining."
+  },
+  {
+    "cv_code": "CV 9",
+    "score": 35,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate's profile is strongly aligned with an entry-level Data Analyst or Statistician role, focusing on data analysis, statistical modeling, and visualization. However, they do not meet the fundamental technical requirements for the Data Engineer position. The absence of skills in Python/Scala, SQL, Spark, cloud infrastructure, and data pipelining tools makes them unsuitable for this role without significant retraining."
+  },
+  {
+    "cv_code": "CV 10",
+    "score": 30,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is a second-year university student whose profile is strongly oriented towards data analysis, not data engineering. They lack the fundamental technical skills, educational qualifications (a completed degree), and relevant project experience required for this role. The gap between their current skill set and the job requirements is too significant. They might be a potential candidate for a future Data Analyst internship, but they are not a fit for the Data Engineer position as described."
+  },
+  {
+    "cv_code": "CV 14",
+    "score": 30,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is a statistics student whose profile is oriented towards data analysis, not data engineering. There is a complete mismatch in technical skills and experience. The CV lacks any evidence of proficiency in programming, database management, big data technologies, or cloud infrastructure, which are all fundamental requirements for the Data Engineer role. While the candidate has a relevant educational background and good soft skills, the technical gap is far too wide. This profile might be suitable for a future Data Analyst internship, but it does not meet the minimum qualifications for the current Data Engineer position."
+  },
+  {
+    "cv_code": "CV 18",
+    "score": 30,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is a current undergraduate student with a profile suitable for a Data Analyst or Statistics internship. There is a fundamental mismatch with the Data Engineer role, as they lack nearly all of the required technical skills, professional experience, and the minimum educational qualification. The CV shows no exposure to data pipeline development, big data frameworks, cloud infrastructure, or advanced database management. While the candidate shows promise in the broader data field, they are not a viable candidate for this specific position at this time."
+  },
+  {
+    "cv_code": "CV 19",
+    "score": 30,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate's profile is a clear mismatch for the Data Engineer position. They are a Statistics student with a skill set and experience aligned with a junior Data Analyst or Marketing Analyst role. They lack the foundational programming, database, big data, and cloud computing skills that are essential for this position. The gap between their current profile and the job requirements is too substantial to consider them for this role."
+  },
+  {
+    "cv_code": "CV 8",
+    "score": 15,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is fundamentally not a fit for this technical Data Engineer position. There is a complete mismatch between their skills, education, and experience and the core requirements of the role. The profile is geared towards an HR or administrative position. They lack the foundational programming, database, and big data knowledge necessary to even be considered for an entry-level data engineering role."
+  },
+  {
+    "cv_code": "CV 1",
+    "score": 20,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is fundamentally unsuitable for the Data Engineer position. Their profile, including education, skills, experience, and stated career interests, is aligned with roles in Human Resources, Marketing, or possibly Industrial Design, but shows no overlap with the requirements of data engineering. There is no evidence of the foundational technical skills required to even be considered for an entry-level data role."
+  },
+  {
+    "cv_code": "CV 11",
+    "score": 20,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their CV is tailored for a career in education and demonstrates no exposure to or interest in the required technical domains such as programming, database management, or big data. There is a complete mismatch between the candidate's profile and the job requirements."
+  },
+  {
+    "cv_code": "CV 2",
+    "score": 20,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their profile, experience, and skills are aligned with a marketing or social media role, not a technical engineering one. There is a complete mismatch between the candidate's qualifications and every single technical requirement of the job description."
+  },
+  {
+    "cv_code": "CV 3",
+    "score": 20,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is fundamentally unqualified for the Data Engineer position. Their educational background is in Pharmacy, and they possess none of the essential technical skills or relevant experience required for the role. The profile is a complete mismatch with the job description."
+  },
+  {
+    "cv_code": "CV 4",
+    "score": 20,
+    "recommendation": "Not Recommended",
+    "notes": "The candidate is a high-achieving student in the field of Pharmacy with commendable soft skills. However, there is a fundamental and complete mismatch between their profile and the requirements for a Data Engineer position. They lack the necessary educational foundation, technical skills, and relevant experience in every key area specified in the job description. The profile is suited for a role in the pharmaceutical industry, not in data engineering."
+  },
+  {
+    "cv_code": "CV 15",
+    "error": "Document is inaccessible/private."
+  },
+  {
+    "cv_code": "CV 15",
+    "error": "Document is inaccessible/private."
+  }
+]
